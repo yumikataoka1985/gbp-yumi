@@ -9,17 +9,21 @@ para o usuário copiar e colar manualmente no painel do Google (Perfil da Empres
 
 ## Passo 1 — Ler a estratégia
 
-Ler `../../DNA.md` (ou `DNA.md` na raiz do projeto) por inteiro: tom de voz, público
-(massoterapeuta, não cliente final), regras específicas do Google Business Profile (tamanho,
-tipos de post, CTA, imagem, sem link no corpo), pilares de conteúdo e checklist final.
+Ler `../../DNA.md` (ou `DNA.md` na raiz do projeto) por inteiro: tom de voz, público (3
+personas, nunca cliente final), regras específicas do Google Business Profile (tamanho, tipos
+de post, CTA, imagem, sem link no corpo), pilares de conteúdo e checklist final. Ler também
+`../../personas.md` (ou `personas.md` na raiz) por inteiro: as 3 personas (massoterapeuta,
+fisioterapeuta, dona de spa) com dores, desejos, frases-chave, headlines e gatilhos de cada uma.
 
-## Passo 2 — Escolher o tema
+## Passo 2 — Escolher o tema e a persona
 
 Listar os arquivos em `../../posts/` (ou `posts/` na raiz) ordenados por data e olhar os
-**2 últimos** publicados: não repetir o mesmo pilar de conteúdo do DNA.md em seguida. Se o
-usuário passou um tema/argumento, usar esse tema ajustado ao DNA. Senão, escolher o próximo
-pilar da lista seguindo o rodízio. Definir: tipo de post (Novidade/Oferta/Evento), palavra-chave
-de intenção, CTA e botão.
+**2 últimos** publicados (frontmatter `pilar` e `persona`): não repetir o mesmo pilar nem a
+mesma persona dos 2 últimos em seguida. Se o usuário passou um tema/argumento, usar esse tema
+ajustado ao DNA e escolher a persona mais alinhada a ele. Senão, seguir o rodízio de pilares e
+de personas (girando entre as 3 do `personas.md`). Definir: persona-alvo, tipo de post
+(Novidade/Oferta/Evento), palavra-chave de intenção, CTA e botão, usando a dor/frase-chave/
+gatilho específicos daquela persona.
 
 ## Passo 3 — Escrever o rascunho
 
@@ -29,6 +33,7 @@ Criar `posts/AAAA-MM-DD-slug.md` com esta estrutura:
 ---
 data: AAAA-MM-DD
 tipo: Novidade | Oferta | Evento
+persona: massoterapeuta | fisioterapeuta | dona-de-spa
 palavra_chave: "..."
 cta_botao: "Saiba mais | Ligar agora | Reservar | Comprar | Cadastre-se"
 cta_destino: "WhatsApp (11) 98560-4140" ou URL do site
@@ -50,10 +55,11 @@ frases. O texto deve soar como a Yumi falando com uma colega de profissão.
 
 ## Passo 5 — Validar
 
-Conferir contra o checklist do final do DNA.md: 1 palavra-chave só, sem travessão, 150-300
-palavras (máx 1500 caracteres), fala com a massoterapeuta (não com cliente de massagem), CTA
-claro, tipo de post definido, briefing de imagem presente, pilar diferente dos 2 últimos posts.
-Se algo não bater, corrigir antes de entregar.
+Conferir contra o checklist do final do DNA.md: persona definida e sem mistura com outra, 1
+palavra-chave só, sem travessão, 150-300 palavras (máx 1500 caracteres), fala com a
+profissional (nunca com cliente final), CTA claro, tipo de post definido, briefing de imagem
+presente, pilar e persona diferentes dos 2 últimos posts. Se algo não bater, corrigir antes de
+entregar.
 
 ## Passo 6 — Entregar
 

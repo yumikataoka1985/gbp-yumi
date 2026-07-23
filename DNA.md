@@ -18,12 +18,22 @@ Massage Clínica, Consciência Corporal e Google Meu Negócio para Terapeutas.
 
 ## Público-alvo
 
-**Quem busca o perfil no Google não é cliente de massagem — é a própria massoterapeuta**
-(persona: Iara Mendonça, 28-42 anos, 2-8 anos de prática, fatura R$2-6mil/mês hoje,
-sem Google Meu Negócio estruturado, não sabe o que postar, tem medo de cobrar mais caro).
-Ver detalhes completos em memória `project_yumi_context.md` (10 dores, Método MAPA, Código
-DPF). **Nunca escrever como se o leitor fosse alguém buscando uma massagem** — é uma
-colega de profissão buscando mentoria/autoridade/posicionamento.
+**Quem busca o perfil no Google não é cliente de massagem/spa — é sempre uma profissional de
+terapias manuais buscando mentoria de negócio.** Nunca escrever como se o leitor fosse alguém
+procurando uma massagem ou um tratamento de spa.
+
+Existem **3 personas**, detalhadas em `personas.md` (ler antes de escrever qualquer rascunho):
+
+1. **Massoterapeuta** (Iara Mendonça) — agenda irregular, fatura R$2-6mil/mês, não sabe o que
+   postar, medo de cobrar mais caro, sem Google Meu Negócio estruturado. Ver também memória
+   `project_yumi_context.md` (10 dores, Método MAPA, Código DPF).
+2. **Fisioterapeuta** (Dra. Letícia Andrade) — fatura R$15-35mil/mês mas o corpo é a própria
+   máquina, teto de faturamento por falta de horas, dor física real (LER), medo de subir preço.
+3. **Dona de spa de bem-estar** (Marina Toledo) — já tem espaço físico e clientes fiéis, mas
+   carrega tudo sozinha, gestão solitária, perdida na direção, quer chegar aos 20K+ com leveza.
+
+Cada post deve ter **uma persona-alvo só**, escolhida em rodízio (ver Passo 2 da skill
+`gbp-post`), com o ângulo, a dor e as frases-chave específicas dela vindas de `personas.md`.
 
 ## Tom de voz
 
@@ -58,19 +68,26 @@ Diferente de blog, o post do Google tem restrições próprias:
 ## Pilares de conteúdo (rodar sem repetir os últimos 4 publicados)
 
 1. Autoridade da Yumi (17 anos, formação, resultados de mentoradas).
-2. Uma das 10 dores da massoterapeuta (Método MAPA) + o gap que ela revela.
+2. Uma dor central da persona escolhida (ver `personas.md`) + o gap que ela revela.
 3. Google Meu Negócio na prática (dica de otimização de perfil, avaliação, foto, categoria).
 4. Precificação e posicionamento (Código DPF, "vender experiência x vender sessão").
 5. Oferta/convite para conhecer o Método MAPA (turma, diagnóstico gratuito, etc).
 6. Bastidor / prova social (o que uma mentorada mudou depois do MAPA).
 
+Pilares 1, 4, 5 e 6 servem para qualquer uma das 3 personas (só muda o ângulo/frase-chave).
+Pilar 2 é o que mais diferencia: cada persona tem uma dor e um "gatilho de decisão" próprios
+em `personas.md`. O pilar 3 (Google Meu Negócio) fala mais forte com a massoterapeuta e a
+dona de spa; para a fisioterapeuta, adaptar para "autoridade e reembolso/ticket" se o Google
+Meu Negócio não for a dor dela.
+
 ## Checklist antes de entregar um rascunho
 
+- [ ] Persona-alvo definida e citada no frontmatter (`persona:`), sem misturar com outra.
 - [ ] Só 1 palavra-chave de intenção, citada com naturalidade.
 - [ ] Sem travessão.
 - [ ] 150-300 palavras (nunca passar de 1500 caracteres).
-- [ ] Fala com a massoterapeuta, não com cliente de massagem.
+- [ ] Fala com a profissional (fisio/massoterapeuta/dona de spa), nunca com cliente final.
 - [ ] Termina com CTA claro apontando pro WhatsApp (11) 98560-4140.
 - [ ] Tipo de post definido (Novidade / Oferta / Evento).
 - [ ] Briefing de imagem sugerido (1-2 linhas).
-- [ ] Não repete o mesmo pilar/tema dos 2 últimos rascunhos em `posts/`.
+- [ ] Não repete o mesmo pilar dos 2 últimos rascunhos, nem a mesma persona dos 2 últimos.

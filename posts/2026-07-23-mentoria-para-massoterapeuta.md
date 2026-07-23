@@ -1,6 +1,7 @@
 ---
 data: 2026-07-23
 tipo: Novidade
+persona: massoterapeuta
 palavra_chave: "mentoria para massoterapeuta"
 cta_botao: "Saiba mais"
 cta_destino: "WhatsApp (11) 98560-4140"
