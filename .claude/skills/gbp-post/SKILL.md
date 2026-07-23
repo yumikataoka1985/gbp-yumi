@@ -60,11 +60,18 @@ Se algo não bater, corrigir antes de entregar.
 Não existe publicação automática configurada. Entregar sempre assim:
 
 1. Confirmar que o arquivo `posts/AAAA-MM-DD-slug.md` foi salvo.
-2. Mostrar o corpo do post pronto para copiar.
-3. Lembrar o usuário: colar no painel do Google Business Profile em Postagens, escolher o
+2. Se este projeto for um repositório git (é o caso: roda tanto local quanto via rotina em
+   nuvem), commitar **apenas** o novo arquivo em `posts/` com mensagem `gbp-post: <título>` e
+   dar `git push` na branch atual. Isso é necessário porque a rotina na nuvem parte de um clone
+   novo a cada execução: sem o push, a próxima execução não veria os posts já gerados e poderia
+   repetir pilar/tema. Se o push falhar (ex. sem credenciais configuradas em execução local),
+   avisar e seguir mesmo assim — o arquivo local já foi salvo.
+3. Mostrar o corpo do post pronto para copiar.
+4. Lembrar o usuário: colar no painel do Google Business Profile em Postagens, escolher o
    tipo de post e o botão de CTA indicados no frontmatter, subir a foto conforme o briefing.
-4. Resumir: tema/pilar escolhido, palavra-chave, tipo de post e caminho do arquivo.
+5. Resumir: tema/pilar escolhido, palavra-chave, tipo de post, caminho do arquivo e se o push
+   foi feito com sucesso.
 
 Se no futuro uma ferramenta de publicação para Google Business Profile for conectada (API
 oficial ou um agregador como Windsor.ai/Metricool), este Passo 6 deve ser atualizado para
-publicar direto, mas até lá a entrega é sempre o arquivo de rascunho.
+publicar direto, mas até lá a entrega é sempre o arquivo de rascunho commitado no repositório.
