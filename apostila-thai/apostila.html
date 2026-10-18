@@ -100,6 +100,8 @@
   .timeline .ev::before { content: ""; position: absolute; left: -11.2mm; top: 1.6mm; width: 3.4mm; height: 3.4mm; border-radius: 50%; background: var(--paper); border: 1.2pt solid var(--gold); }
   .timeline .when { font-family: "Cormorant Garamond", serif; font-size: 13pt; font-weight: 700; color: var(--terra); }
   .timeline .what { font-size: 9.4pt; }
+  .timeline.tight .ev { margin-bottom: 3.5mm; }
+  .timeline.tight .what { font-size: 8.9pt; line-height: 1.5; }
 
   /* tabelas */
   table { width: 100%; border-collapse: collapse; font-size: 8.8pt; margin: 4mm 0; }
@@ -120,20 +122,20 @@
   ul.clean li::marker { color: var(--gold); }
 
   /* ficha de manobra */
-  .mv { border: .7pt solid var(--line); border-radius: 3mm; overflow: hidden; margin-bottom: 7mm; background: #fff; }
+  .mv { border: .7pt solid var(--line); border-radius: 3mm; overflow: hidden; margin-bottom: 5mm; background: #fff; }
   .mv-head { display: flex; align-items: center; gap: 4mm; background: var(--forest); color: var(--ivory); padding: 3.2mm 5mm; }
   .mv-head .no { font-family: "Cormorant Garamond", serif; font-size: 22pt; color: var(--gold-soft); line-height: 1; }
   .mv-head .nm { flex: 1; font-family: "Cormorant Garamond", serif; font-size: 15pt; }
   .mv-head .nm small { display: block; font-family: "Inter"; font-size: 7pt; letter-spacing: .2em; text-transform: uppercase; color: var(--gold-soft); }
   .mv-head .tc { font-size: 7.5pt; letter-spacing: .1em; border: .6pt solid var(--gold-soft); padding: 1mm 2.5mm; border-radius: 4mm; color: var(--gold-soft); }
   .mv-body { display: grid; grid-template-columns: 78mm 1fr; }
-  .mv-photo { height: 58mm; background: repeating-linear-gradient(45deg, #F3ECDF 0 6px, #EFE6D6 6px 12px); display: flex; align-items: center; justify-content: center; text-align: center; color: var(--muted); font-size: 8pt; letter-spacing: .12em; text-transform: uppercase; }
+  .mv-photo { height: 50mm; background: repeating-linear-gradient(45deg, #F3ECDF 0 6px, #EFE6D6 6px 12px); display: flex; align-items: center; justify-content: center; text-align: center; color: var(--muted); font-size: 8pt; letter-spacing: .12em; text-transform: uppercase; }
   .mv-photo img { width: 100%; height: 100%; object-fit: cover; }
-  .mv-info { padding: 4mm 5mm; font-size: 8.8pt; }
+  .mv-info { padding: 3mm 4.5mm; font-size: 8.3pt; line-height: 1.45; }
   .mv-info dl { margin: 0; display: grid; grid-template-columns: 22mm 1fr; row-gap: 1.6mm; }
   .mv-info dt { font-size: 7pt; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); font-weight: 600; padding-top: .6mm; }
   .mv-info dd { margin: 0; }
-  .mv-steps { grid-column: 1 / -1; border-top: .6pt solid var(--line); padding: 3.5mm 5mm 4mm; font-size: 8.8pt; }
+  .mv-steps { grid-column: 1 / -1; border-top: .6pt solid var(--line); padding: 2.5mm 5mm 3mm; font-size: 8.4pt; line-height: 1.45; }
   .mv-steps ol { margin: 1mm 0 0; padding-left: 5mm; }
   .mv-steps .tag { font-size: 7pt; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); font-weight: 600; }
   .ph { color: #A99D8E; font-style: italic; }
@@ -231,11 +233,11 @@
   <h1>Sua jornada<br>de estudo</h1>
   <div class="rule"></div>
   <ul class="toc">
-    <li><span class="n">01</span><span class="t"><b>História da Thai Massage</b><span>Jivaka, o médico do Buda, a chegada do budismo, Wat Pho, as escolas e a UNESCO</span></span><span class="p" data-ref="m1"></span></li>
+    <li><span class="n">01</span><span class="t"><b>História da Thai Massage</b><span>Ayurveda e os rishis, Jivaka, a chegada do budismo, Wat Pho, o reconhecimento oficial e as escolas</span></span><span class="p" data-ref="m1"></span></li>
     <li><span class="n">02</span><span class="t"><b>Fundamentos teóricos</b><span>Lom pran, as dez linhas Sen, pontos de Wat Pho, os elementos e as atitudes do coração</span></span><span class="p" data-ref="m2"></span></li>
     <li><span class="n">03</span><span class="t"><b>Princípios de aplicação</b><span>Postura do terapeuta, ferramentas do corpo, ritmo e respiração</span></span><span class="p" data-ref="m3"></span></li>
     <li><span class="n">04</span><span class="t"><b>Segurança e olhar clínico</b><span>Anamnese, contraindicações, cuidados e preparação do atendimento</span></span><span class="p" data-ref="m4"></span></li>
-    <li><span class="n">05</span><span class="t"><b>Catálogo de manobras</b><span>Fichas ilustradas com objetivo, posição e passo a passo de cada manobra</span></span><span class="p" data-ref="m5"></span></li>
+    <li><span class="n">05</span><span class="t"><b>Catálogo de manobras</b><span>Fichas com objetivo, posição e passo a passo, começando pela sequência sentada</span></span><span class="p" data-ref="m5"></span></li>
     <li><span class="n">06</span><span class="t"><b>Anexos</b><span>Ficha de anamnese, glossário, referências e anotações</span></span><span class="p" data-ref="m6"></span></li>
   </ul>
   <div class="foot"><span>Thai Massage Clínica</span><b class="pn"></b></div>
@@ -273,6 +275,32 @@
 
   <h2>Uma tradição oral</h2>
   <p>Durante séculos, o conhecimento foi transmitido de forma oral e prática, nos mosteiros (wat) e dentro das famílias. Os monges dominavam a leitura e a escrita e eram, muitas vezes, os médicos da comunidade. Parte dos registros escritos se perdeu em 1767, quando a antiga capital Ayutthaya foi destruída durante a guerra com a Birmânia.</p>
+  <div class="foot"><span>Módulo 01 · História</span><b class="pn"></b></div>
+</section>
+
+<section class="page">
+  <div class="kicker">Módulo 01 · História</div>
+  <h2 style="margin-top:0">Índia, berço do Ayurveda</h2>
+  <p>A Índia é um território de enorme riqueza histórica e espiritual, com vestígios de presença humana que remontam a cerca de 400.000 anos, às margens do rio Soan. É o berço do hinduísmo, do budismo, do jainismo e do siquismo, terra de Buda, Gandhi e Tagore. Deu ao mundo os algarismos que usamos, o conceito do zero e um dos sistemas médicos mais antigos da humanidade: o <strong>Ayurveda</strong>, considerado pelos indianos um saber recebido dos deuses.</p>
+
+  <h2>A lenda dos rishis</h2>
+  <p>Conta a tradição que, há cerca de seis mil anos, a Índia estava enferma. As pessoas sofriam de muitas doenças e os curandeiros não sabiam como ajudar. Um grupo de sábios decidiu então partir em peregrinação para as montanhas do Himalaia, onde meditaram e oraram em busca de inspiração para socorrer o povo.</p>
+  <p>Esses sábios são os <strong>rishis</strong>, palavra sânscrita que significa "videntes". Segundo a tradição, foi por meio de visões e diálogos com os antigos deuses que eles receberam o conhecimento que deu origem ao Ayurveda.</p>
+
+  <div class="cols" style="margin-top:5mm">
+    <div class="card">
+      <div class="kicker" style="margin:0">Primeiro pilar</div>
+      <h3>A alimentação</h3>
+      <p>Os rishis organizaram os alimentos em grupos e sabores e concluíram que, com eles, era possível prevenir, tratar e curar doenças. Por isso, alguns historiadores chamam os indianos de primeiros nutrólogos do mundo.</p>
+    </div>
+    <div class="card">
+      <div class="kicker" style="margin:0">Segundo pilar</div>
+      <h3>As plantas</h3>
+      <p>Depois, catalogaram plantas e suas formas de uso. Esse conhecimento influenciou os sistemas médicos do Sudeste Asiático e de outras culturas vizinhas, entre eles a medicina tradicional tailandesa.</p>
+    </div>
+  </div>
+
+  <div class="quote" style="margin-top:9mm">"O mesmo sopro de cuidado que nasceu no Himalaia<br>chega hoje às suas mãos."</div>
   <div class="foot"><span>Módulo 01 · História</span><b class="pn"></b></div>
 </section>
 
@@ -359,6 +387,31 @@
 
 <section class="page">
   <div class="kicker">Módulo 01 · História</div>
+  <h2 style="margin-top:0">Da aldeia ao hospital</h2>
+  <p>No passado, uma prática dos vilarejos, passada de geração em geração. No século XX, o governo tailandês passou a pesquisar e reconhecer oficialmente essa tradição.</p>
+  <div class="timeline tight">
+    <div class="ev"><div class="when">1983</div><div class="what">O governo cria um projeto de revitalização da técnica, com intercâmbio de conhecimentos entre os praticantes e um sistema de ensino no país.</div></div>
+    <div class="ev"><div class="when">1987</div><div class="what">Primeiros ensaios clínicos e início da implantação da massagem em hospitais.</div></div>
+    <div class="ev"><div class="when">1993</div><div class="what">Uma lei troca o termo "antigo" por "tradicional": a <em>Nuad Pan Boran</em> passa a ser <em>Nuad Pan Thai</em>, hoje simplesmente <strong>Nuad Thai</strong>. No mesmo ano, o governo realiza o primeiro curso oficial de formação, com 330 horas, que forma 500 terapeutas.</div></div>
+    <div class="ev"><div class="when">24 de setembro de 2001</div><div class="what">O "Dia D": o Ministério da Saúde da Tailândia reconhece a Thai Massage como parte integrante da medicina tradicional, abrangendo avaliação, tratamento, prevenção, promoção da saúde e reabilitação.</div></div>
+    <div class="ev"><div class="when">2007</div><div class="what">Uma resolução garante o reembolso das sessões realizadas em unidades de saúde credenciadas. A técnica passa a integrar a atenção primária à saúde pública do país.</div></div>
+  </div>
+
+  <div class="box">
+    <div class="label">A definição oficial</div>
+    Para o Ministério da Saúde Pública da Tailândia, o Nuad Thai é a integração da ciência e da arte no cuidado tradicional em saúde: pressionar, girar, amassar, apertar, alongar, puxar, aplicar compressas de ervas quentes e manipular pontos específicos ao longo das vias energéticas para restaurar o fluxo de energia e a circulação, aliviando dor, rigidez, tensão e outros sintomas.
+  </div>
+
+  <h2>Duas formas de Nuad Thai</h2>
+  <div class="cols">
+    <div class="card"><div class="kicker" style="margin:0">Nuad Raksa</div><h3>Nuad Thai terapêutico</h3><p>Uso clínico, baseado em pontos e linhas, como terapia complementar para queixas específicas. É a raiz da Thai Massage Clínica.</p></div>
+    <div class="card"><div class="kicker" style="margin:0">Nuad Phua Sukaphap</div><h3>Promoção da saúde</h3><p>Voltado ao relaxamento, ao bem-estar e à melhora geral da saúde.</p></div>
+  </div>
+  <div class="foot"><span>Módulo 01 · História</span><b class="pn"></b></div>
+</section>
+
+<section class="page">
+  <div class="kicker">Módulo 01 · História</div>
   <h2 style="margin-top:0">As duas grandes escolas</h2>
   <p>Embora exista uma base comum, a Thai Massage se desenvolveu com sotaques regionais. Os dois estilos mais conhecidos são o do sul (Bangkok) e o do norte (Chiang Mai).</p>
   <div class="cols" style="margin-top:5mm">
@@ -375,7 +428,7 @@
   </div>
 
   <h2>Da tradição à clínica</h2>
-  <p>A <strong>Thai Massage Clínica</strong> preserva a essência da tradição (o respeito, o ritmo, a atenção plena) e acrescenta o raciocínio terapêutico: escuta da queixa, avaliação da postura e da mobilidade, escolha das manobras pelo objetivo e reavaliação ao final.</p>
+  <p>Herdeira do <strong>Nuad Raksa</strong>, a <strong>Thai Massage Clínica</strong> preserva a essência da tradição (o respeito, o ritmo, a atenção plena) e acrescenta o raciocínio terapêutico: escuta da queixa, avaliação da postura e da mobilidade, escolha das manobras pelo objetivo e reavaliação ao final.</p>
   <div class="cols3" style="margin-top:4mm">
     <div class="card"><h3>Avaliar</h3><p>Ouvir a queixa, observar postura, testar amplitude e identificar contraindicações.</p></div>
     <div class="card"><h3>Escolher</h3><p>Selecionar as manobras pelo objetivo da sessão, não por uma sequência fixa.</p></div>
@@ -737,41 +790,133 @@
 <section class="page">
   <div class="kicker">Módulo 05 · Manobras</div>
   <h2 style="margin-top:0">Como ler cada ficha</h2>
-  <p class="muted" style="margin-bottom:6mm">As fichas abaixo são o modelo. Elas serão preenchidas com as manobras demonstradas na aula em vídeo, com prints tirados do próprio vídeo.</p>
+  <p>Cada manobra tem uma ficha com a posição do cliente e do terapeuta, a região e a ferramenta de trabalho, o objetivo, os cuidados e o passo a passo. No livro de referência, o cliente é chamado de <strong>interagente</strong>: ele participa da sessão, com a respiração e o movimento.</p>
+  <div class="box"><div class="label">Fonte das fichas</div>As primeiras fichas descrevem o fechamento da <strong>sequência sentada</strong>, conforme o capítulo "Manual de Thai Massagem Passo a Passo" do livro de referência. As fotos serão feitas com as demonstrações do Instituto. As manobras da aula em vídeo entram nas próximas páginas.</div>
+  <h2>Sequência sentada: fechamento</h2>
+  <p>Ao final da sessão, o cliente se senta e o terapeuta trabalha as costas e a coluna com torções e extensões, depois relaxa a musculatura e encerra com o cumprimento.</p>
+  <ul class="clean">
+    <li><strong>01</strong> Torção com apoio do antebraço</li>
+    <li><strong>02</strong> Remando o barco</li>
+    <li><strong>03</strong> Thai Toilet</li>
+    <li><strong>04</strong> Círculos palmares e giros de antebraço</li>
+    <li><strong>05</strong> Percussão</li>
+    <li><strong>06</strong> Cumprimento final</li>
+  </ul>
+  <div class="foot"><span>Módulo 05 · Manobras</span><b class="pn"></b></div>
+</section>
 
+<section class="page">
+  <div class="kicker">Módulo 05 · Manobras · Sequência sentada</div>
   <div class="mv">
-    <div class="mv-head"><span class="no">00</span><span class="nm"><small>Decúbito dorsal</small>Nome da manobra</span><span class="tc">Vídeo 00:00</span></div>
+    <div class="mv-head"><span class="no">01</span><span class="nm"><small>Sentado</small>Torção com apoio do antebraço</span><span class="tc">Livro, fig. 128</span></div>
     <div class="mv-body">
-      <div class="mv-photo">Print do vídeo</div>
+      <div class="mv-photo">Foto da manobra</div>
       <div class="mv-info">
         <dl>
-          <dt>Cliente</dt><dd class="ph">posição do cliente</dd>
-          <dt>Terapeuta</dt><dd class="ph">posição e apoio do terapeuta</dd>
-          <dt>Região</dt><dd class="ph">área e linha Sen trabalhadas</dd>
-          <dt>Ferramenta</dt><dd class="ph">palmas, polegares, pés...</dd>
-          <dt>Objetivo</dt><dd class="ph">efeito terapêutico esperado</dd>
-          <dt>Cuidados</dt><dd class="ph">contraindicações específicas</dd>
+          <dt>Cliente</dt><dd>Sentado, pernas flexionadas, uma mão sobre o ombro oposto.</dd>
+          <dt>Terapeuta</dt><dd>Atrás do cliente, com uma das pernas apoiando as costas dele.</dd>
+          <dt>Região</dt><dd>Coluna torácica e lombar, cinturas escapular e pélvica.</dd>
+          <dt>Ferramenta</dt><dd>Mãos sustentando o antebraço do cliente.</dd>
+          <dt>Objetivo</dt><dd>Torção da coluna com dissociação das cinturas e ajuste postural.</dd>
+          <dt>Cuidados</dt><dd>Hérnia de disco, osteoporose e dor lombar aguda: amplitude reduzida ou não aplicar.</dd>
         </dl>
       </div>
-      <div class="mv-steps"><span class="tag">Passo a passo</span><ol class="ph"><li>Primeiro movimento</li><li>Segundo movimento</li><li>Repetições, ritmo e respiração</li></ol></div>
+      <div class="mv-steps"><span class="tag">Passo a passo</span><ol><li>O cliente cruza o braço à frente do peito.</li><li>O terapeuta sustenta o antebraço dele com as duas mãos.</li><li>Na expiração, conduz o tronco em rotação, mantendo o quadril estável.</li><li>Sustente alguns segundos, retorne devagar e repita para o outro lado.</li></ol></div>
     </div>
   </div>
-
   <div class="mv">
-    <div class="mv-head"><span class="no">01</span><span class="nm"><small>Aguardando o vídeo</small>Manobra 01</span><span class="tc">Vídeo --:--</span></div>
+    <div class="mv-head"><span class="no">02</span><span class="nm"><small>Sentado</small>Remando o barco</span><span class="tc">Livro, fig. 129</span></div>
     <div class="mv-body">
-      <div class="mv-photo">Print do vídeo</div>
+      <div class="mv-photo">Foto da manobra</div>
       <div class="mv-info">
         <dl>
-          <dt>Cliente</dt><dd class="ph">a preencher</dd>
-          <dt>Terapeuta</dt><dd class="ph">a preencher</dd>
-          <dt>Região</dt><dd class="ph">a preencher</dd>
-          <dt>Ferramenta</dt><dd class="ph">a preencher</dd>
-          <dt>Objetivo</dt><dd class="ph">a preencher</dd>
-          <dt>Cuidados</dt><dd class="ph">a preencher</dd>
+          <dt>Cliente</dt><dd>Sentado, braços estendidos à frente em flexão, palmas para cima.</dd>
+          <dt>Terapeuta</dt><dd>Sentado atrás, pés apoiados nas costas do cliente.</dd>
+          <dt>Região</dt><dd>Eretores da coluna.</dd>
+          <dt>Ferramenta</dt><dd>Pés (pressão) e mãos (tração dos punhos).</dd>
+          <dt>Objetivo</dt><dd>Estender a coluna e liberar os eretores.</dd>
+          <dt>Cuidados</dt><dd>Tração leve, cerca de 10% da força. Evitar em dor lombar aguda e em ombros instáveis.</dd>
         </dl>
       </div>
-      <div class="mv-steps"><span class="tag">Passo a passo</span><ol class="ph"><li>a preencher</li></ol></div>
+      <div class="mv-steps"><span class="tag">Passo a passo</span><ol><li>O terapeuta segura os punhos do cliente.</li><li>Puxa levemente, cerca de 10%, mantendo os braços dele alinhados.</li><li>Estende os joelhos para levar pressão aos pés, em três pontos sobre os eretores.</li><li>No momento da pressão, o cliente olha para cima, ajudando a extensão.</li></ol></div>
+    </div>
+  </div>
+  <div class="foot"><span>Módulo 05 · Manobras</span><b class="pn"></b></div>
+</section>
+
+<section class="page">
+  <div class="kicker">Módulo 05 · Manobras · Sequência sentada</div>
+  <div class="mv">
+    <div class="mv-head"><span class="no">03</span><span class="nm"><small>Sentado</small>Thai Toilet</span><span class="tc">Livro, fig. 130</span></div>
+    <div class="mv-body">
+      <div class="mv-photo">Foto da manobra</div>
+      <div class="mv-info">
+        <dl>
+          <dt>Cliente</dt><dd>Sentado, braços elevados ou para trás.</dd>
+          <dt>Terapeuta</dt><dd>Atrás do cliente, joelhos apoiados nas costas dele.</dd>
+          <dt>Região</dt><dd>Quadrado lombar ou região torácica.</dd>
+          <dt>Ferramenta</dt><dd>Joelhos (pressão) e mãos (tração dos braços).</dd>
+          <dt>Objetivo</dt><dd>Favorecer a extensão da coluna e abrir o peito.</dd>
+          <dt>Cuidados</dt><dd>Manobra intensa. Contraindicada em hérnia de disco, osteoporose, gestação e lombalgia aguda.</dd>
+        </dl>
+      </div>
+      <div class="mv-steps"><span class="tag">Passo a passo</span><ol><li>Posicione os joelhos em dois pontos sobre o quadrado lombar (ou dois pontos torácicos).</li><li>Segure os braços do cliente.</li><li>Na expiração, puxe os braços para trás enquanto os joelhos sustentam a coluna.</li><li>Solte devagar e repita respeitando o limite do cliente.</li></ol></div>
+    </div>
+  </div>
+  <div class="mv">
+    <div class="mv-head"><span class="no">04</span><span class="nm"><small>Sentado</small>Círculos palmares e giros de antebraço</span><span class="tc">Livro, fig. 131</span></div>
+    <div class="mv-body">
+      <div class="mv-photo">Foto da manobra</div>
+      <div class="mv-info">
+        <dl>
+          <dt>Cliente</dt><dd>Sentado, relaxado, tronco levemente inclinado à frente.</dd>
+          <dt>Terapeuta</dt><dd>Atrás do cliente, de joelhos ou sentado.</dd>
+          <dt>Região</dt><dd>Costas, musculatura paravertebral e escápulas.</dd>
+          <dt>Ferramenta</dt><dd>Palmas e antebraços.</dd>
+          <dt>Objetivo</dt><dd>Relaxar e integrar o trabalho feito nas costas.</dd>
+          <dt>Cuidados</dt><dd>Pressão confortável, sem apoiar sobre a coluna.</dd>
+        </dl>
+      </div>
+      <div class="mv-steps"><span class="tag">Passo a passo</span><ol><li>Faça círculos amplos com as palmas por toda a superfície das costas.</li><li>Passe para giros com o antebraço sobre a musculatura, dos dois lados da coluna.</li><li>Mantenha um ritmo lento e contínuo, acompanhando a respiração do cliente.</li></ol></div>
+    </div>
+  </div>
+  <div class="foot"><span>Módulo 05 · Manobras</span><b class="pn"></b></div>
+</section>
+
+<section class="page">
+  <div class="kicker">Módulo 05 · Manobras · Sequência sentada</div>
+  <div class="mv">
+    <div class="mv-head"><span class="no">05</span><span class="nm"><small>Sentado</small>Percussão</span><span class="tc">Livro, fig. 132</span></div>
+    <div class="mv-body">
+      <div class="mv-photo">Foto da manobra</div>
+      <div class="mv-info">
+        <dl>
+          <dt>Cliente</dt><dd>Sentado, relaxado.</dd>
+          <dt>Terapeuta</dt><dd>Atrás ou ao lado do cliente.</dd>
+          <dt>Região</dt><dd>Ombros, trapézio e musculatura das costas.</dd>
+          <dt>Ferramenta</dt><dd>Mãos unidas ou bordas das mãos.</dd>
+          <dt>Objetivo</dt><dd>Estimular a circulação e despertar o corpo ao final da sessão.</dd>
+          <dt>Cuidados</dt><dd>Percuta só sobre músculos, nunca sobre ossos (coluna, escápula, crânio).</dd>
+        </dl>
+      </div>
+      <div class="mv-steps"><span class="tag">Passo a passo</span><ol><li>Una as mãos ou use as bordas das mãos.</li><li>Percuta em ritmo leve ao longo dos músculos.</li><li>Desça e suba pelas costas, evitando a coluna e as saliências ósseas.</li></ol></div>
+    </div>
+  </div>
+  <div class="mv">
+    <div class="mv-head"><span class="no">06</span><span class="nm"><small>Sentado</small>Cumprimento final</span><span class="tc">Livro, fig. 133</span></div>
+    <div class="mv-body">
+      <div class="mv-photo">Foto da manobra</div>
+      <div class="mv-info">
+        <dl>
+          <dt>Cliente</dt><dd>Sentado, de frente ou de costas para o terapeuta.</dd>
+          <dt>Terapeuta</dt><dd>Sentado ou de joelhos, mãos unidas à frente do peito.</dd>
+          <dt>Região</dt><dd>Encerramento da sessão.</dd>
+          <dt>Ferramenta</dt><dd>Presença e intenção.</dd>
+          <dt>Objetivo</dt><dd>Fechar o atendimento com respeito e gratidão.</dd>
+          <dt>Cuidados</dt><dd>Momento de silêncio. Oriente o cliente a levantar devagar.</dd>
+        </dl>
+      </div>
+      <div class="mv-steps"><span class="tag">Passo a passo</span><ol><li>O terapeuta une as mãos à frente do peito (wai).</li><li>Faz uma breve reverência e um momento de silêncio.</li><li>Agradece e ajuda o cliente a se levantar com calma.</li></ol></div>
     </div>
   </div>
   <div class="foot"><span>Módulo 05 · Manobras</span><b class="pn"></b></div>
@@ -814,6 +959,9 @@
     <p><b>Nuad Boran</b> <i>นวดแผนโบราณ</i><br>"Massagem antiga", o nome da forma tradicional.</p>
     <p><b>Sen</b> <i>เส้น</i><br>Linha, canal por onde circula a energia vital.</p>
     <p><b>Sen Sip</b><br>As dez linhas Sen principais.</p>
+    <p><b>Interagente</b><br>Termo usado no livro de referência para o cliente, que participa da sessão.</p>
+    <p><b>Nuad Raksa</b><br>Nuad Thai terapêutico, de uso clínico.</p>
+    <p><b>Rishis</b><br>"Videntes" em sânscrito; os sábios que, pela tradição, receberam o Ayurveda.</p>
     <p><b>Onculi</b><br>Medida tradicional equivalente à largura de uma falange do dedo do próprio cliente.</p>
     <p><b>Jantala Kala e Surya Kala</b><br>Nomes de Itha (lunar) e Pingkhala (solar) nas placas de Wat Pho.</p>
     <p><b>Jantapusang e Rucham</b><br>Nomes de Lawusang e Ulangka em Wat Pho.</p>
@@ -830,11 +978,6 @@
     <p><b>Brahmaviharas</b><br>As quatro atitudes do coração: metta, karuna, mudita e upekkha.</p>
     <p><b>Decúbito dorsal / lateral / ventral</b><br>Cliente deitado de barriga para cima, de lado ou de barriga para baixo.</p>
   </div>
-  <h2>Anotações</h2>
-  <div style="border-bottom:.6pt solid var(--line);height:9mm"></div>
-  <div style="border-bottom:.6pt solid var(--line);height:9mm"></div>
-  <div style="border-bottom:.6pt solid var(--line);height:9mm"></div>
-  <div style="border-bottom:.6pt solid var(--line);height:9mm"></div>
   <div class="foot"><span>Anexos</span><b class="pn"></b></div>
 </section>
 
