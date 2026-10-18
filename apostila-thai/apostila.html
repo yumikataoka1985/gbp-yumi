@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Apostila Thai Massage Clínica</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ivory: #F7F1E6;
+    --paper: #FBF8F2;
+    --forest: #1E3A33;
+    --forest-2: #2B4F45;
+    --gold: #B8893B;
+    --gold-soft: #D9BC85;
+    --terra: #A4553A;
+    --ink: #2A2522;
+    --muted: #6E655C;
+    --line: #E3D7C3;
+  }
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #ddd; }
+  body {
+    font-family: "Inter", "Loma", sans-serif;
+    color: var(--ink);
+    font-size: 10.2pt;
+    line-height: 1.6;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .page {
+    width: 210mm; height: 297mm;
+    position: relative; overflow: hidden;
+    background: var(--paper);
+    padding: 24mm 22mm 24mm 22mm;
+    page-break-after: always; break-after: page;
+    margin: 0 auto;
+  }
+  @media screen { .page { margin: 10mm auto; box-shadow: 0 4px 24px rgba(0,0,0,.15); } }
+
+  h1, h2, h3, .serif { font-family: "Cormorant Garamond", "Loma", serif; font-weight: 600; color: var(--forest); }
+  h1 { font-size: 34pt; line-height: 1.05; margin: 0 0 6mm; }
+  h2 { font-size: 19pt; margin: 8mm 0 3mm; line-height: 1.15; }
+  h3 { font-size: 13.5pt; margin: 5mm 0 1.5mm; }
+  p { margin: 0 0 3.2mm; }
+  .kicker { font-size: 8pt; letter-spacing: .28em; text-transform: uppercase; color: var(--gold); font-weight: 600; margin-bottom: 3mm; }
+  .lead { font-family: "Cormorant Garamond", serif; font-size: 15pt; line-height: 1.4; color: var(--forest-2); font-style: italic; }
+  .rule { width: 22mm; height: 1.2pt; background: var(--gold); margin: 4mm 0 6mm; }
+  .muted { color: var(--muted); }
+  strong { font-weight: 600; color: var(--forest); }
+
+  /* rodapé */
+  .foot { position: absolute; left: 22mm; right: 22mm; bottom: 11mm; display: flex; justify-content: space-between; font-size: 7.5pt; color: var(--muted); letter-spacing: .08em; border-top: .6pt solid var(--line); padding-top: 3mm; }
+  .foot b { color: var(--gold); font-weight: 600; }
+
+  /* capa */
+  .cover { background: var(--forest); color: var(--ivory); padding: 0; }
+  .cover .frame { position: absolute; inset: 11mm; border: .8pt solid rgba(217,188,133,.55); }
+  .cover .frame::after { content: ""; position: absolute; inset: 2.2mm; border: .4pt solid rgba(217,188,133,.3); }
+  .cover .inner { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 30mm; }
+  .cover .thai { font-family: "Loma", serif; font-size: 15pt; color: var(--gold-soft); letter-spacing: .1em; margin: 6mm 0 3mm; }
+  .cover h1 { color: var(--ivory); font-size: 50pt; font-weight: 500; margin: 0; letter-spacing: .01em; }
+  .cover h1 em { color: var(--gold-soft); font-style: italic; font-weight: 400; }
+  .cover .sub { font-size: 9pt; letter-spacing: .42em; text-transform: uppercase; color: var(--gold-soft); margin-top: 8mm; }
+  .cover .author { position: absolute; bottom: 26mm; left: 0; right: 0; text-align: center; }
+  .cover .author .name { font-family: "Cormorant Garamond", serif; font-size: 15pt; color: var(--ivory); }
+  .cover .author .inst { font-size: 7.5pt; letter-spacing: .36em; text-transform: uppercase; color: var(--gold-soft); margin-top: 2mm; }
+
+  /* abertura de módulo */
+  .opener { background: var(--ivory); display: flex; flex-direction: column; justify-content: flex-end; padding-bottom: 40mm; }
+  .opener .num { font-family: "Cormorant Garamond", serif; font-size: 150pt; line-height: .8; color: var(--gold-soft); font-weight: 400; }
+  .opener h1 { font-size: 42pt; margin-top: 4mm; }
+  .opener .lotus-bg { position: absolute; right: -30mm; top: 18mm; width: 150mm; opacity: .09; }
+
+  /* sumário */
+  .toc { list-style: none; padding: 0; margin: 8mm 0 0; }
+  .toc li { display: flex; align-items: baseline; gap: 4mm; padding: 3.4mm 0; border-bottom: .6pt solid var(--line); }
+  .toc .n { font-family: "Cormorant Garamond", serif; font-size: 20pt; color: var(--gold); width: 12mm; }
+  .toc .t { flex: 1; }
+  .toc .t b { display: block; font-family: "Cormorant Garamond", serif; font-size: 14pt; color: var(--forest); font-weight: 600; }
+  .toc .t span { font-size: 8.5pt; color: var(--muted); }
+  .toc .p { font-size: 9pt; color: var(--muted); }
+
+  /* blocos */
+  .box { background: var(--ivory); border-left: 2.5pt solid var(--gold); padding: 4mm 5mm; margin: 5mm 0; border-radius: 0 2mm 2mm 0; }
+  .box.alert { border-left-color: var(--terra); background: #F6E9E1; }
+  .box .label { font-size: 7.5pt; letter-spacing: .22em; text-transform: uppercase; font-weight: 600; color: var(--gold); margin-bottom: 1.5mm; }
+  .box.alert .label { color: var(--terra); }
+  .quote { font-family: "Cormorant Garamond", serif; font-style: italic; font-size: 17pt; line-height: 1.35; color: var(--forest); text-align: center; margin: 9mm 8mm; }
+  .quote small { display: block; font-family: "Inter"; font-style: normal; font-size: 7.5pt; letter-spacing: .25em; text-transform: uppercase; color: var(--gold); margin-top: 3mm; }
+
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 7mm; }
+  .cols3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 5mm; }
+
+  /* linha do tempo */
+  .timeline { position: relative; margin: 6mm 0 0 3mm; padding-left: 9mm; border-left: .8pt solid var(--gold-soft); }
+  .timeline .ev { position: relative; margin-bottom: 5.5mm; }
+  .timeline .ev::before { content: ""; position: absolute; left: -11.2mm; top: 1.6mm; width: 3.4mm; height: 3.4mm; border-radius: 50%; background: var(--paper); border: 1.2pt solid var(--gold); }
+  .timeline .when { font-family: "Cormorant Garamond", serif; font-size: 13pt; font-weight: 700; color: var(--terra); }
+  .timeline .what { font-size: 9.4pt; }
+
+  /* tabelas */
+  table { width: 100%; border-collapse: collapse; font-size: 8.8pt; margin: 4mm 0; }
+  th { text-align: left; font-size: 7.3pt; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); font-weight: 600; padding: 2mm 2.5mm; border-bottom: 1pt solid var(--gold-soft); }
+  td { padding: 2.3mm 2.5mm; border-bottom: .5pt solid var(--line); vertical-align: top; }
+  td:first-child { font-family: "Cormorant Garamond", serif; font-size: 11.5pt; font-weight: 600; color: var(--forest); white-space: nowrap; }
+
+  /* cartões de elemento / metta */
+  .card { background: var(--ivory); border-radius: 2.5mm; padding: 4.5mm; }
+  .card .ic { font-family: "Loma", serif; font-size: 15pt; color: var(--gold); }
+  .card h3 { margin-top: 1mm; }
+  .card p { font-size: 8.8pt; margin: 0; }
+
+  ul.clean { padding-left: 4.5mm; margin: 0 0 3mm; }
+  ul.clean li { margin-bottom: 1.4mm; }
+  ul.clean li::marker { color: var(--gold); }
+
+  /* ficha de manobra */
+  .mv { border: .7pt solid var(--line); border-radius: 3mm; overflow: hidden; margin-bottom: 7mm; background: #fff; }
+  .mv-head { display: flex; align-items: center; gap: 4mm; background: var(--forest); color: var(--ivory); padding: 3.2mm 5mm; }
+  .mv-head .no { font-family: "Cormorant Garamond", serif; font-size: 22pt; color: var(--gold-soft); line-height: 1; }
+  .mv-head .nm { flex: 1; font-family: "Cormorant Garamond", serif; font-size: 15pt; }
+  .mv-head .nm small { display: block; font-family: "Inter"; font-size: 7pt; letter-spacing: .2em; text-transform: uppercase; color: var(--gold-soft); }
+  .mv-head .tc { font-size: 7.5pt; letter-spacing: .1em; border: .6pt solid var(--gold-soft); padding: 1mm 2.5mm; border-radius: 4mm; color: var(--gold-soft); }
+  .mv-body { display: grid; grid-template-columns: 78mm 1fr; }
+  .mv-photo { height: 58mm; background: repeating-linear-gradient(45deg, #F3ECDF 0 6px, #EFE6D6 6px 12px); display: flex; align-items: center; justify-content: center; text-align: center; color: var(--muted); font-size: 8pt; letter-spacing: .12em; text-transform: uppercase; }
+  .mv-photo img { width: 100%; height: 100%; object-fit: cover; }
+  .mv-info { padding: 4mm 5mm; font-size: 8.8pt; }
+  .mv-info dl { margin: 0; display: grid; grid-template-columns: 22mm 1fr; row-gap: 1.6mm; }
+  .mv-info dt { font-size: 7pt; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); font-weight: 600; padding-top: .6mm; }
+  .mv-info dd { margin: 0; }
+  .mv-steps { grid-column: 1 / -1; border-top: .6pt solid var(--line); padding: 3.5mm 5mm 4mm; font-size: 8.8pt; }
+  .mv-steps ol { margin: 1mm 0 0; padding-left: 5mm; }
+  .mv-steps .tag { font-size: 7pt; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); font-weight: 600; }
+  .ph { color: #A99D8E; font-style: italic; }
+
+  /* ficha de anamnese */
+  .form-row { display: flex; gap: 4mm; margin-bottom: 3.6mm; font-size: 8.8pt; }
+  .form-row .f { flex: 1; border-bottom: .6pt solid #BFB3A0; padding-bottom: 1mm; color: var(--muted); }
+  .checks { columns: 2; column-gap: 8mm; font-size: 8.6pt; margin: 2mm 0 4mm; }
+  .checks div { break-inside: avoid; margin-bottom: 1.8mm; }
+  .checks div::before { content: ""; display: inline-block; width: 3mm; height: 3mm; border: .7pt solid var(--gold); border-radius: .6mm; margin-right: 2mm; vertical-align: -.4mm; }
+
+  /* glossário */
+  .gl { columns: 2; column-gap: 9mm; font-size: 8.9pt; }
+  .gl p { break-inside: avoid; margin-bottom: 3mm; }
+  .gl b { font-family: "Cormorant Garamond", serif; font-size: 12pt; color: var(--forest); }
+  .gl i { color: var(--terra); font-style: normal; font-family: "Loma", serif; }
+
+  .back { background: var(--forest); color: var(--ivory); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+  .back h2 { color: var(--ivory); font-size: 26pt; font-weight: 500; }
+  .back p { color: #D8D2C4; max-width: 125mm; }
+  .back .contact { margin-top: 8mm; font-size: 9pt; letter-spacing: .14em; color: var(--gold-soft); line-height: 2; }
+</style>
+</head>
+<body>
+
+<!-- Ornamento reaproveitado -->
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <symbol id="lotus" viewBox="0 0 200 140">
+      <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">
+        <path d="M100 18 C86 44 86 82 100 112 C114 82 114 44 100 18 Z"/>
+        <path d="M100 112 C78 96 62 70 60 40 C80 52 94 76 100 112 Z"/>
+        <path d="M100 112 C122 96 138 70 140 40 C120 52 106 76 100 112 Z"/>
+        <path d="M100 112 C70 110 42 94 26 70 C52 70 82 88 100 112 Z"/>
+        <path d="M100 112 C130 110 158 94 174 70 C148 70 118 88 100 112 Z"/>
+        <path d="M40 122 C70 116 130 116 160 122"/>
+        <path d="M62 130 C84 126 116 126 138 130"/>
+      </g>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- 1. CAPA -->
+<section class="page cover">
+  <div class="frame"></div>
+  <div class="inner">
+    <svg style="width:46mm;height:32mm;color:#D9BC85"><use href="#lotus"/></svg>
+    <div class="thai">นวดไทย</div>
+    <h1>Thai Massage<br><em>Clínica</em></h1>
+    <div class="sub">Apostila de manobras</div>
+  </div>
+  <div class="author">
+    <div class="name">Vanessa Yumi Kataoka</div>
+    <div class="inst">Instituto Yumi Kataoka</div>
+  </div>
+</section>
+
+<!-- 2. BOAS-VINDAS -->
+<section class="page">
+  <div class="kicker">Boas-vindas</div>
+  <h1>Antes de tocar,<br>presença.</h1>
+  <div class="rule"></div>
+  <p class="lead">Esta apostila acompanha a sua formação em Thai Massage Clínica. Ela foi pensada para ser o seu material de consulta antes, durante e depois da prática.</p>
+  <p>A Thai Massage (Nuad Thai) é uma arte terapêutica que une pressão rítmica, alongamentos assistidos, mobilizações articulares e uma atitude de cuidado consciente. No contexto clínico, ela ganha um olhar ainda mais atento: avaliação, objetivo terapêutico, segurança e adaptação da técnica ao corpo real que está à sua frente.</p>
+  <p>Aqui você vai encontrar a história da tradição, os fundamentos teóricos, os princípios de aplicação, os cuidados de segurança e, no coração deste material, o <strong>catálogo das manobras</strong>, cada uma com imagem, objetivo e passo a passo.</p>
+
+  <h2 style="margin-top:5mm">Como usar esta apostila</h2>
+  <div class="cols">
+    <div>
+      <h3>Estude a teoria primeiro</h3>
+      <p>Os módulos 1 a 4 dão o contexto. Entender o porquê de cada gesto muda a qualidade do seu toque.</p>
+      <h3>Pratique com a ficha ao lado</h3>
+      <p>Cada manobra tem uma ficha com posição, objetivo e sequência. Use o tempo indicado na ficha para rever o trecho exato da aula.</p>
+    </div>
+    <div>
+      <h3>Anote sem medo</h3>
+      <p>Os espaços de anotação são seus. Registre sensações, ajustes de postura e o que funcionou com cada cliente.</p>
+      <h3>Respeite os limites</h3>
+      <p>Releia o módulo de segurança sempre que receber um cliente com condição de saúde específica.</p>
+    </div>
+  </div>
+
+  <div class="quote" style="margin:4mm 8mm">"A técnica abre a porta.<br>A presença é o que cura."<small>Vanessa Yumi Kataoka</small></div>
+
+  <div class="box">
+    <div class="label">Sobre a autora</div>
+    Vanessa Yumi Kataoka é massoterapeuta, formadora e mentora com mais de 17 anos de atuação, especialista em Thai Massage Clínica e Consciência Corporal. Fundadora do Instituto Yumi Kataoka.
+  </div>
+  <div class="foot"><span>Thai Massage Clínica</span><b>02</b></div>
+</section>
+
+<!-- 3. SUMÁRIO -->
+<section class="page">
+  <div class="kicker">Sumário</div>
+  <h1>O que você<br>vai estudar</h1>
+  <div class="rule"></div>
+  <ul class="toc">
+    <li><span class="n">01</span><span class="t"><b>História da Thai Massage</b><span>Origens, Shivago Komarpaj, Wat Pho, as escolas e o reconhecimento pela UNESCO</span></span><span class="p">04</span></li>
+    <li><span class="n">02</span><span class="t"><b>Fundamentos teóricos</b><span>Linhas Sen, os quatro elementos e as quatro atitudes do coração</span></span><span class="p">08</span></li>
+    <li><span class="n">03</span><span class="t"><b>Princípios de aplicação</b><span>Postura do terapeuta, ferramentas do corpo, ritmo e respiração</span></span><span class="p">11</span></li>
+    <li><span class="n">04</span><span class="t"><b>Segurança e olhar clínico</b><span>Anamnese, contraindicações, cuidados e preparação do atendimento</span></span><span class="p">13</span></li>
+    <li><span class="n">05</span><span class="t"><b>Catálogo de manobras</b><span>Fichas ilustradas com objetivo, posição e passo a passo de cada manobra</span></span><span class="p">15</span></li>
+    <li><span class="n">06</span><span class="t"><b>Anexos</b><span>Ficha de anamnese, glossário e anotações</span></span><span class="p">17</span></li>
+  </ul>
+  <div class="foot"><span>Thai Massage Clínica</span><b>03</b></div>
+</section>
+
+<!-- MÓDULO 1 -->
+<section class="page opener">
+  <svg class="lotus-bg" style="color:#1E3A33;height:110mm"><use href="#lotus"/></svg>
+  <div class="num">01</div>
+  <div class="kicker">Módulo</div>
+  <h1>História da<br>Thai Massage</h1>
+  <p class="lead" style="max-width:130mm">Uma tradição viva, transmitida de mestre para aprendiz por mais de dois milênios, nos templos, nas famílias e nas aldeias do antigo Sião.</p>
+  <div class="foot"><span>Módulo 01 · História</span><b>04</b></div>
+</section>
+
+<section class="page">
+  <div class="kicker">Módulo 01 · História</div>
+  <h2 style="margin-top:0">Nuad Thai: o nome e o sentido</h2>
+  <p>Em tailandês, <strong>นวด (nuad)</strong> significa massagear, tocar com intenção de curar. A forma tradicional é chamada de <strong>Nuad Boran</strong> (นวดแผนโบราณ), "massagem antiga", ou simplesmente <strong>Nuad Thai</strong>. No Ocidente, ficou conhecida como Thai Massage ou massagem tailandesa.</p>
+  <p>Ela faz parte de um sistema maior, a <strong>Medicina Tradicional Tailandesa</strong>, que inclui também a fitoterapia, a alimentação, as compressas de ervas (luk pra kob), a autoterapia com posturas (ruesi dat ton) e a dimensão espiritual do cuidado.</p>
+
+  <h2>O pai da medicina tailandesa</h2>
+  <p>A tradição atribui a origem da Thai Massage a <strong>Shivago Komarpaj</strong> (Jivaka Komarabhacca), médico que, segundo os textos budistas em páli, viveu na Índia há cerca de 2.500 anos e foi contemporâneo e médico pessoal do Buda. Até hoje, a sessão tradicional começa com uma prece em sua homenagem, o <strong>Wai Khru</strong>, gesto de respeito aos mestres que vieram antes.</p>
+  <p>Os historiadores consideram que a relação direta entre Jivaka e a prática tailandesa é mais simbólica do que documental. O que se sabe é que o conhecimento chegou ao Sudeste Asiático junto com o budismo e se misturou a outras correntes ao longo dos séculos.</p>
+
+  <div class="box">
+    <div class="label">As influências que formaram a Thai Massage</div>
+    <ul class="clean" style="margin:0">
+      <li><strong>Ayurveda e Yoga</strong> (Índia): a ideia de canais de energia e os alongamentos posturais.</li>
+      <li><strong>Medicina chinesa</strong>: o trabalho sobre pontos e o raciocínio de fluxo e bloqueio.</li>
+      <li><strong>Budismo Theravada</strong>: a meditação, a atenção plena e a prática da compaixão (metta).</li>
+      <li><strong>Saberes locais do Sião</strong>: a massagem de família e as práticas dos curandeiros das aldeias.</li>
+    </ul>
+  </div>
+
+  <h2>Uma tradição oral</h2>
+  <p>Durante séculos, o conhecimento foi transmitido de forma oral e prática, nos mosteiros (wat) e dentro das famílias. Os monges eram, muitas vezes, os médicos da comunidade, e o templo era também o lugar de cura. Parte dos registros escritos se perdeu em 1767, quando a antiga capital Ayutthaya foi destruída durante a guerra com a Birmânia.</p>
+  <div class="foot"><span>Módulo 01 · História</span><b>05</b></div>
+</section>
+
+<section class="page">
+  <div class="kicker">Módulo 01 · História</div>
+  <h2 style="margin-top:0">Linha do tempo</h2>
+  <div class="timeline">
+    <div class="ev"><div class="when">Cerca de 500 a.C.</div><div class="what">Época atribuída a Shivago Komarpaj, o médico do Buda, considerado pela tradição o pai da medicina tailandesa.</div></div>
+    <div class="ev"><div class="when">Séculos seguintes</div><div class="what">O budismo chega ao Sudeste Asiático. O conhecimento de cura se funde com práticas locais e passa a ser guardado nos templos.</div></div>
+    <div class="ev"><div class="when">1767</div><div class="what">Queda de Ayutthaya. Muitos textos de medicina tradicional são destruídos e a transmissão volta a depender ainda mais da tradição oral.</div></div>
+    <div class="ev"><div class="when">Século XIX</div><div class="what">No templo Wat Pho, em Bangkok, o rei Rama III manda gravar em placas de mármore o conhecimento médico da época, incluindo figuras do corpo com as linhas e os pontos de massagem. O templo também recebe as estátuas dos eremitas em posturas de autoalongamento (ruesi dat ton).</div></div>
+    <div class="ev"><div class="when">Século XX</div><div class="what">Surgem as escolas formais de massagem tradicional, como a escola do Wat Pho em Bangkok e as escolas de Chiang Mai, no norte. A prática se organiza em currículos e passa a ser ensinada a estrangeiros.</div></div>
+    <div class="ev"><div class="when">Décadas de 1980 e 1990</div><div class="what">A Thai Massage se espalha pelo mundo e chega ao Brasil, inicialmente por terapeutas que estudaram na Tailândia.</div></div>
+    <div class="ev"><div class="when">2019</div><div class="what">A UNESCO inscreve o <strong>Nuad Thai</strong> na Lista Representativa do Patrimônio Cultural Imaterial da Humanidade.</div></div>
+  </div>
+  <div class="quote" style="margin-top:4mm">"Wat Pho é considerado até hoje o berço da Thai Massage."</div>
+  <div class="foot"><span>Módulo 01 · História</span><b>06</b></div>
+</section>
+
+<section class="page">
+  <div class="kicker">Módulo 01 · História</div>
+  <h2 style="margin-top:0">As duas grandes escolas</h2>
+  <p>Embora exista uma base comum, a Thai Massage se desenvolveu com sotaques regionais. Os dois estilos mais conhecidos são o do sul (Bangkok) e o do norte (Chiang Mai).</p>
+  <div class="cols" style="margin-top:5mm">
+    <div class="card">
+      <div class="kicker" style="margin:0">Sul · Bangkok</div>
+      <h3>Estilo Wat Pho</h3>
+      <p>Ritmo mais firme e dinâmico, pressões mais profundas com polegares e palmas, trabalho preciso sobre linhas e pontos. Muito usado com foco terapêutico.</p>
+    </div>
+    <div class="card">
+      <div class="kicker" style="margin:0">Norte · Chiang Mai</div>
+      <h3>Estilo do norte</h3>
+      <p>Ritmo mais lento e envolvente, ênfase em alongamentos amplos e balanços, uso generoso do peso do corpo, joelhos e pés. Sensação de fluidez e entrega.</p>
+    </div>
+  </div>
+
+  <h2>Da tradição à clínica</h2>
+  <p>A <strong>Thai Massage Clínica</strong> preserva a essência da tradição (o respeito, o ritmo, a atenção plena) e acrescenta o raciocínio terapêutico: escuta da queixa, avaliação da postura e da mobilidade, escolha das manobras pelo objetivo e reavaliação ao final.</p>
+  <div class="cols3" style="margin-top:4mm">
+    <div class="card"><h3>Avaliar</h3><p>Ouvir a queixa, observar postura, testar amplitude e identificar contraindicações.</p></div>
+    <div class="card"><h3>Escolher</h3><p>Selecionar as manobras pelo objetivo da sessão, não por uma sequência fixa.</p></div>
+    <div class="card"><h3>Reavaliar</h3><p>Comparar antes e depois e orientar o cliente para o autocuidado.</p></div>
+  </div>
+
+  <div class="box" style="margin-top:8mm">
+    <div class="label">Reflexão</div>
+    Conhecer a história não é só curiosidade cultural. Quando você conta ao seu cliente de onde vem a técnica, você transforma uma sessão em uma experiência, e o cliente percebe o valor do que recebe.
+  </div>
+  <div class="foot"><span>Módulo 01 · História</span><b>07</b></div>
+</section>
+
+<!-- MÓDULO 2 -->
+<section class="page opener">
+  <svg class="lotus-bg" style="color:#1E3A33;height:110mm"><use href="#lotus"/></svg>
+  <div class="num">02</div>
+  <div class="kicker">Módulo</div>
+  <h1>Fundamentos<br>teóricos</h1>
+  <p class="lead" style="max-width:130mm">As linhas de energia, os elementos que compõem o corpo e a atitude de coração que sustenta cada toque.</p>
+  <div class="foot"><span>Módulo 02 · Fundamentos</span><b>08</b></div>
+</section>
+
+<section class="page">
+  <div class="kicker">Módulo 02 · Fundamentos</div>
+  <h2 style="margin-top:0">As linhas Sen</h2>
+  <p>A teoria tradicional descreve o corpo atravessado por uma rede de canais invisíveis, as <strong>linhas Sen</strong>, por onde circula a energia vital (lom, o "vento"). Fala-se em 72.000 linhas, das quais <strong>dez são as principais</strong> (Sen Sip). Quase todas partem da região do umbigo e se distribuem pelo corpo.</p>
+  <p>Quando o fluxo está livre, há saúde. Quando há bloqueio, surgem tensão, dor e desequilíbrio. A massagem trabalha ao longo dessas linhas com pressão rítmica e alongamentos para restaurar o fluxo.</p>
+  <table>
+    <thead><tr><th>Linha</th><th>Trajeto resumido</th><th>Associações</th></tr></thead>
+    <tbody>
+      <tr><td>Sumana</td><td>Centro do corpo, do umbigo até a garganta e a língua</td><td>Respiração, coração, garganta</td></tr>
+      <tr><td>Ittha</td><td>Do umbigo, pela perna esquerda, sobe pelas costas até a narina esquerda</td><td>Cabeça, lombar, resfriados</td></tr>
+      <tr><td>Pingkhala</td><td>Espelho de Ittha, no lado direito, até a narina direita</td><td>Cabeça, lombar, fígado</td></tr>
+      <tr><td>Kalathari</td><td>Do umbigo para braços e pernas, até mãos e pés</td><td>Circulação, membros, sistema nervoso</td></tr>
+      <tr><td>Sahatsarangsi</td><td>Perna esquerda, lateral do tronco até o olho esquerdo</td><td>Visão, face, joelhos</td></tr>
+      <tr><td>Thawari</td><td>Espelho de Sahatsarangsi, até o olho direito</td><td>Visão, face, joelhos</td></tr>
+      <tr><td>Lawusang</td><td>Do umbigo até o ouvido esquerdo</td><td>Audição, mandíbula, pescoço</td></tr>
+      <tr><td>Ulangka</td><td>Do umbigo até o ouvido direito</td><td>Audição, mandíbula, pescoço</td></tr>
+      <tr><td>Nanthakrawat</td><td>Do umbigo para a região do baixo ventre (uretra e ânus)</td><td>Digestão, eliminação</td></tr>
+      <tr><td>Khitchanna</td><td>Do umbigo para a região genital</td><td>Sistema reprodutor, ciclo menstrual</td></tr>
+    </tbody>
+  </table>
+  <div class="box"><div class="label">Para a prática clínica</div>Você não precisa "acreditar" em energia para usar o mapa das Sen. Muitos trajetos coincidem com septos musculares, feixes neurovasculares e cadeias miofasciais. Use o mapa como guia de onde e em que direção trabalhar.</div>
+  <div class="foot"><span>Módulo 02 · Fundamentos</span><b>09</b></div>
+</section>
+
+<section class="page">
+  <div class="kicker">Módulo 02 · Fundamentos</div>
+  <h2 style="margin-top:0">Os quatro elementos (Thatu)</h2>
+  <p>Na Medicina Tradicional Tailandesa, o corpo é formado por quatro elementos. O desequilíbrio entre eles explica boa parte dos sintomas, e a massagem é uma das formas de devolver a harmonia.</p>
+  <div class="cols" style="margin-top:4mm; gap:5mm">
+    <div class="card"><div class="ic">ดิน</div><h3>Terra (Din)</h3><p>Estrutura: ossos, músculos, tendões, órgãos. Excesso traz rigidez e peso; falta traz fraqueza.</p></div>
+    <div class="card"><div class="ic">น้ำ</div><h3>Água (Nam)</h3><p>Líquidos: sangue, linfa, suor, muco. Relacionada a inchaço, retenção ou ressecamento.</p></div>
+    <div class="card"><div class="ic">ลม</div><h3>Vento (Lom)</h3><p>Movimento: respiração, circulação, impulsos nervosos. É o elemento mais trabalhado pela massagem.</p></div>
+    <div class="card"><div class="ic">ไฟ</div><h3>Fogo (Fai)</h3><p>Calor e transformação: metabolismo, digestão, temperatura do corpo, envelhecimento.</p></div>
+  </div>
+
+  <h2>As quatro atitudes do coração</h2>
+  <p>A Thai Massage nasce dentro de uma tradição budista. Por isso, a qualidade interna do terapeuta é tão importante quanto a técnica. Os <strong>Brahmaviharas</strong> são quatro estados que guiam o atendimento:</p>
+  <div class="cols" style="gap:5mm">
+    <div class="card"><h3>Metta</h3><p>Bondade amorosa. Desejar genuinamente o bem de quem você atende.</p></div>
+    <div class="card"><h3>Karuna</h3><p>Compaixão. Perceber o sofrimento do outro e agir para aliviá-lo.</p></div>
+    <div class="card"><h3>Mudita</h3><p>Alegria compartilhada. Celebrar a melhora e o bem-estar do cliente.</p></div>
+    <div class="card"><h3>Upekkha</h3><p>Equanimidade. Estar presente sem julgamento e sem apego ao resultado.</p></div>
+  </div>
+  <div class="quote" style="margin-top:7mm">"A massagem é meditação em movimento,<br>para quem recebe e para quem aplica."</div>
+  <div class="foot"><span>Módulo 02 · Fundamentos</span><b>10</b></div>
+</section>
+
+<!-- MÓDULO 3 -->
+<section class="page">
+  <div class="kicker">Módulo 03 · Princípios de aplicação</div>
+  <h2 style="margin-top:0">A postura do terapeuta</h2>
+  <p>Na Thai Massage, a força não vem dos braços. Ela vem do <strong>peso do corpo</strong>, transferido com o quadril e o centro. Um terapeuta bem posicionado trabalha com profundidade e sem se machucar.</p>
+  <ul class="clean">
+    <li><strong>Base estável:</strong> joelhos afastados, coluna neutra, ombros relaxados.</li>
+    <li><strong>Braços retos:</strong> cotovelos estendidos, a pressão nasce da inclinação do tronco.</li>
+    <li><strong>Movimento a partir do centro</strong> (hara): o quadril conduz, as mãos apenas transmitem.</li>
+    <li><strong>Proximidade:</strong> fique perto do cliente. Distância obriga você a usar força muscular.</li>
+    <li><strong>Pausas e trocas de apoio:</strong> mude de posição antes de sentir desconforto.</li>
+  </ul>
+
+  <h2>As ferramentas do corpo</h2>
+  <table>
+    <thead><tr><th>Ferramenta</th><th>Qualidade do toque</th><th>Uso mais comum</th></tr></thead>
+    <tbody>
+      <tr><td>Palmas</td><td>Ampla, acolhedora, aquece</td><td>Abertura, pressões ao longo das linhas</td></tr>
+      <tr><td>Polegares</td><td>Precisa e profunda</td><td>Pontos e trabalho detalhado nas Sen</td></tr>
+      <tr><td>Antebraços</td><td>Larga e firme</td><td>Costas, coxas, glúteos</td></tr>
+      <tr><td>Cotovelos</td><td>Muito profunda, pontual</td><td>Glúteos, região plantar (com cautela)</td></tr>
+      <tr><td>Joelhos</td><td>Peso estável</td><td>Coxas e pernas em alongamentos</td></tr>
+      <tr><td>Pés</td><td>Ampla, com peso total</td><td>Pernas, glúteos e alongamentos de tração</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Ritmo, respiração e pressão</h2>
+  <div class="cols">
+    <div><h3>Ritmo</h3><p>Lento, constante e previsível. O corpo relaxa quando sabe o que vem a seguir. Pressione, sustente, solte.</p></div>
+    <div><h3>Respiração</h3><p>Aprofunde a pressão na expiração do cliente. Respire junto com a pessoa e use a sua respiração para se manter presente.</p></div>
+  </div>
+  <div class="box"><div class="label">Escala de pressão</div>Combine com o cliente uma escala de 0 a 10. Trabalhe entre 5 e 7, a "dor boa". Acima disso, o corpo se defende e a técnica perde o efeito.</div>
+  <div class="foot"><span>Módulo 03 · Aplicação</span><b>11</b></div>
+</section>
+
+<section class="page">
+  <div class="kicker">Módulo 03 · Princípios de aplicação</div>
+  <h2 style="margin-top:0">Estrutura de uma sessão</h2>
+  <p>A ordem tradicional percorre o corpo dos pés à cabeça, passando por diferentes posições. Na abordagem clínica, essa estrutura é uma referência, adaptada ao objetivo de cada atendimento.</p>
+  <div class="timeline">
+    <div class="ev"><div class="when">1 · Acolhimento</div><div class="what">Anamnese, avaliação e combinados. Wai Khru: um momento de silêncio e intenção antes de tocar.</div></div>
+    <div class="ev"><div class="when">2 · Decúbito dorsal (barriga para cima)</div><div class="what">Pés, pernas e linhas das pernas, alongamentos de quadril, abdômen (com cautela), braços e mãos.</div></div>
+    <div class="ev"><div class="when">3 · Decúbito lateral</div><div class="what">Linhas laterais da perna, quadril, região lombar, ombro e torções suaves.</div></div>
+    <div class="ev"><div class="when">4 · Decúbito ventral (barriga para baixo)</div><div class="what">Parte posterior das pernas, glúteos, costas e alongamentos em extensão.</div></div>
+    <div class="ev"><div class="when">5 · Sentado</div><div class="what">Ombros, trapézio, pescoço, torções e alongamentos do tronco.</div></div>
+    <div class="ev"><div class="when">6 · Cabeça e face</div><div class="what">Couro cabeludo, face e encerramento em repouso.</div></div>
+    <div class="ev"><div class="when">7 · Fechamento</div><div class="what">Reavaliação, orientação de autocuidado e registro na ficha do cliente.</div></div>
+  </div>
+  <div class="box"><div class="label">Ambiente</div>Futon firme no chão, roupa confortável para o cliente (sem óleo), sala aquecida e silenciosa, almofadas para apoio. Mãos limpas, unhas curtas e celular fora do alcance.</div>
+  <div class="foot"><span>Módulo 03 · Aplicação</span><b>12</b></div>
+</section>
+
+<!-- MÓDULO 4 -->
+<section class="page">
+  <div class="kicker">Módulo 04 · Segurança e olhar clínico</div>
+  <h1 style="font-size:30pt">Segurança em primeiro lugar</h1>
+  <div class="rule"></div>
+  <p>Todo atendimento começa com uma <strong>anamnese</strong>. Ela protege o cliente, protege você e orienta a escolha das manobras. Na dúvida, não aplique e peça liberação médica.</p>
+
+  <div class="box alert">
+    <div class="label">Contraindicações absolutas (não atender)</div>
+    <ul class="clean" style="margin:0">
+      <li>Febre, infecção aguda ou doença contagiosa</li>
+      <li>Trombose venosa profunda atual ou suspeita</li>
+      <li>Fraturas recentes, entorses agudas, inflamação aguda</li>
+      <li>Pós-operatório recente sem liberação médica</li>
+      <li>Feridas abertas, queimaduras, lesões de pele na área</li>
+      <li>Hipertensão grave não controlada, problema cardíaco descompensado</li>
+      <li>Cliente sob efeito de álcool ou drogas</li>
+    </ul>
+  </div>
+
+  <div class="box" style="border-left-color:#C9A15E">
+    <div class="label">Contraindicações relativas (adaptar ou pedir liberação)</div>
+    <ul class="clean" style="margin:0">
+      <li><strong>Gestação:</strong> evitar decúbito ventral, abdômen, pontos específicos e alongamentos intensos. Atender só com formação específica.</li>
+      <li><strong>Osteoporose:</strong> pressões leves, sem alongamentos com alavanca grande.</li>
+      <li><strong>Hérnia de disco e dor lombar aguda:</strong> evitar torções e extensões forçadas.</li>
+      <li><strong>Varizes:</strong> não pressionar diretamente sobre os vasos.</li>
+      <li><strong>Próteses articulares:</strong> respeitar a amplitude orientada pelo médico.</li>
+      <li><strong>Anticoagulantes, diabetes com neuropatia, câncer:</strong> pressão leve e liberação médica.</li>
+      <li><strong>Idosos frágeis e hipermobilidade:</strong> alongamentos suaves, sem forçar o fim da amplitude.</li>
+    </ul>
+  </div>
+
+  <h2>Regiões de cuidado especial</h2>
+  <p>Evite pressão direta e prolongada sobre: parte de trás do joelho (fossa poplítea), região anterior do pescoço, axilas, virilha (artéria femoral), coluna vertebral sobre os processos espinhosos, abdômen em quem comeu há pouco e rins.</p>
+  <p>A técnica tradicional de "bloqueio do fluxo" na artéria femoral (blood stop) <strong>não deve ser aplicada</strong> em hipertensos, cardiopatas, gestantes, diabéticos, pessoas com varizes ou histórico de trombose.</p>
+  <div class="foot"><span>Módulo 04 · Segurança</span><b>13</b></div>
+</section>
+
+<section class="page">
+  <div class="kicker">Módulo 04 · Segurança e olhar clínico</div>
+  <h2 style="margin-top:0">O raciocínio clínico</h2>
+  <p>Uma sessão clínica não é uma sequência decorada. É uma resposta a uma pergunta: <strong>"o que este corpo precisa hoje?"</strong></p>
+  <div class="cols3" style="margin-top:4mm">
+    <div class="card"><h3>1. Escutar</h3><p>Qual é a queixa? Desde quando? O que piora e o que melhora? Há diagnóstico médico?</p></div>
+    <div class="card"><h3>2. Observar</h3><p>Postura em pé, assimetrias, padrão de marcha, como a pessoa se senta e se deita.</p></div>
+    <div class="card"><h3>3. Testar</h3><p>Amplitude de movimento antes da sessão: flexão de quadril, rotação de tronco, inclinação do pescoço.</p></div>
+  </div>
+  <div class="cols3" style="margin-top:5mm">
+    <div class="card"><h3>4. Planejar</h3><p>Defina 1 ou 2 objetivos e escolha as manobras que servem a eles.</p></div>
+    <div class="card"><h3>5. Aplicar</h3><p>Com comunicação constante. Pergunte, observe a respiração e a expressão facial.</p></div>
+    <div class="card"><h3>6. Reavaliar</h3><p>Repita os testes. Mostre ao cliente a diferença. Oriente o autocuidado.</p></div>
+  </div>
+
+  <h2>Sinais para parar ou ajustar</h2>
+  <ul class="clean">
+    <li>Dor aguda, em choque ou que irradia</li>
+    <li>Formigamento, dormência ou mudança de cor na extremidade</li>
+    <li>Tontura, náusea, palidez ou suor frio</li>
+    <li>Respiração presa, tensão de defesa, expressão de desconforto</li>
+    <li>Emoção intensa: pause, acolha e pergunte se a pessoa quer continuar</li>
+  </ul>
+
+  <div class="box"><div class="label">Ética e consentimento</div>Explique antes o que vai fazer, principalmente nos alongamentos com contato amplo. O cliente pode interromper a qualquer momento. Registre cada atendimento na ficha.</div>
+  <div class="foot"><span>Módulo 04 · Segurança</span><b>14</b></div>
+</section>
+
+<!-- MÓDULO 5 -->
+<section class="page opener">
+  <svg class="lotus-bg" style="color:#1E3A33;height:110mm"><use href="#lotus"/></svg>
+  <div class="num">05</div>
+  <div class="kicker">Módulo</div>
+  <h1>Catálogo de<br>manobras</h1>
+  <p class="lead" style="max-width:130mm">Cada manobra em uma ficha: a imagem da aula, a posição, o objetivo e o passo a passo para você praticar com segurança.</p>
+  <div class="foot"><span>Módulo 05 · Manobras</span><b>15</b></div>
+</section>
+
+<section class="page">
+  <div class="kicker">Módulo 05 · Manobras</div>
+  <h2 style="margin-top:0">Como ler cada ficha</h2>
+  <p class="muted" style="margin-bottom:6mm">As fichas abaixo são o modelo. Elas serão preenchidas com as manobras demonstradas na aula em vídeo, com prints tirados do próprio vídeo.</p>
+
+  <div class="mv">
+    <div class="mv-head"><span class="no">00</span><span class="nm"><small>Decúbito dorsal</small>Nome da manobra</span><span class="tc">Vídeo 00:00</span></div>
+    <div class="mv-body">
+      <div class="mv-photo">Print do vídeo</div>
+      <div class="mv-info">
+        <dl>
+          <dt>Cliente</dt><dd class="ph">posição do cliente</dd>
+          <dt>Terapeuta</dt><dd class="ph">posição e apoio do terapeuta</dd>
+          <dt>Região</dt><dd class="ph">área e linha Sen trabalhadas</dd>
+          <dt>Ferramenta</dt><dd class="ph">palmas, polegares, pés...</dd>
+          <dt>Objetivo</dt><dd class="ph">efeito terapêutico esperado</dd>
+          <dt>Cuidados</dt><dd class="ph">contraindicações específicas</dd>
+        </dl>
+      </div>
+      <div class="mv-steps"><span class="tag">Passo a passo</span><ol class="ph"><li>Primeiro movimento</li><li>Segundo movimento</li><li>Repetições, ritmo e respiração</li></ol></div>
+    </div>
+  </div>
+
+  <div class="mv">
+    <div class="mv-head"><span class="no">01</span><span class="nm"><small>Aguardando o vídeo</small>Manobra 01</span><span class="tc">Vídeo --:--</span></div>
+    <div class="mv-body">
+      <div class="mv-photo">Print do vídeo</div>
+      <div class="mv-info">
+        <dl>
+          <dt>Cliente</dt><dd class="ph">a preencher</dd>
+          <dt>Terapeuta</dt><dd class="ph">a preencher</dd>
+          <dt>Região</dt><dd class="ph">a preencher</dd>
+          <dt>Ferramenta</dt><dd class="ph">a preencher</dd>
+          <dt>Objetivo</dt><dd class="ph">a preencher</dd>
+          <dt>Cuidados</dt><dd class="ph">a preencher</dd>
+        </dl>
+      </div>
+      <div class="mv-steps"><span class="tag">Passo a passo</span><ol class="ph"><li>a preencher</li></ol></div>
+    </div>
+  </div>
+  <div class="foot"><span>Módulo 05 · Manobras</span><b>16</b></div>
+</section>
+
+<!-- ANEXOS -->
+<section class="page">
+  <div class="kicker">Anexo · Ficha de anamnese</div>
+  <h2 style="margin-top:0">Ficha de anamnese</h2>
+  <p class="muted">Reproduza esta ficha para cada cliente. Guarde com sigilo.</p>
+  <div class="form-row"><span class="f">Nome</span><span class="f" style="flex:.4">Data</span></div>
+  <div class="form-row"><span class="f">Idade</span><span class="f">Profissão</span><span class="f">Telefone</span></div>
+  <div class="form-row"><span class="f">Queixa principal</span></div>
+  <div class="form-row"><span class="f">Desde quando / o que piora / o que melhora</span></div>
+  <div class="form-row"><span class="f">Medicamentos em uso</span></div>
+  <div class="form-row"><span class="f">Cirurgias e lesões anteriores</span></div>
+
+  <h3>Marque se possui</h3>
+  <div class="checks">
+    <div>Hipertensão</div><div>Problemas cardíacos</div><div>Trombose / varizes</div><div>Diabetes</div>
+    <div>Osteoporose</div><div>Hérnia de disco</div><div>Prótese articular</div><div>Gestação</div>
+    <div>Câncer (atual ou tratado)</div><div>Uso de anticoagulante</div><div>Lesão recente</div><div>Labirintite / tontura</div>
+  </div>
+
+  <h3>Avaliação</h3>
+  <div class="form-row"><span class="f">Postura e observações</span></div>
+  <div class="form-row"><span class="f">Testes de amplitude (antes)</span><span class="f">Testes de amplitude (depois)</span></div>
+  <div class="form-row"><span class="f">Objetivo da sessão</span></div>
+  <div class="form-row"><span class="f">Manobras aplicadas</span></div>
+  <div class="form-row"><span class="f">Orientações de autocuidado</span></div>
+  <div class="form-row" style="margin-top:10mm"><span class="f">Assinatura do cliente (declaro que as informações são verdadeiras)</span></div>
+  <div class="foot"><span>Anexos</span><b>17</b></div>
+</section>
+
+<section class="page">
+  <div class="kicker">Anexo · Glossário</div>
+  <h2 style="margin-top:0">Glossário</h2>
+  <div class="gl">
+    <p><b>Nuad</b> <i>นวด</i><br>Massagear, tocar com intenção terapêutica.</p>
+    <p><b>Nuad Boran</b> <i>นวดแผนโบราณ</i><br>"Massagem antiga", o nome da forma tradicional.</p>
+    <p><b>Sen</b> <i>เส้น</i><br>Linha, canal por onde circula a energia vital.</p>
+    <p><b>Sen Sip</b><br>As dez linhas Sen principais.</p>
+    <p><b>Lom</b> <i>ลม</i><br>Vento, a energia vital que circula pelas Sen.</p>
+    <p><b>Thatu</b><br>Elementos que compõem o corpo: terra, água, vento e fogo.</p>
+    <p><b>Wai Khru</b> <i>ไหว้ครู</i><br>Saudação e prece de respeito aos mestres, feita antes da sessão.</p>
+    <p><b>Shivago Komarpaj</b><br>Médico do Buda, considerado o pai da medicina tailandesa.</p>
+    <p><b>Wat</b> <i>วัด</i><br>Templo budista. O Wat Pho, em Bangkok, é o berço da Thai Massage.</p>
+    <p><b>Ruesi Dat Ton</b> <i>ฤๅษีดัดตน</i><br>Exercícios de autoalongamento dos eremitas, usados no autocuidado.</p>
+    <p><b>Luk Pra Kob</b> <i>ลูกประคบ</i><br>Compressa de ervas aquecida, usada junto ou após a massagem.</p>
+    <p><b>Metta</b><br>Bondade amorosa, atitude central do terapeuta.</p>
+    <p><b>Brahmaviharas</b><br>As quatro atitudes do coração: metta, karuna, mudita e upekkha.</p>
+    <p><b>Decúbito dorsal / lateral / ventral</b><br>Cliente deitado de barriga para cima, de lado ou de barriga para baixo.</p>
+  </div>
+  <h2>Anotações</h2>
+  <div style="border-bottom:.6pt solid var(--line);height:9mm"></div>
+  <div style="border-bottom:.6pt solid var(--line);height:9mm"></div>
+  <div style="border-bottom:.6pt solid var(--line);height:9mm"></div>
+  <div style="border-bottom:.6pt solid var(--line);height:9mm"></div>
+  <div class="foot"><span>Anexos</span><b>18</b></div>
+</section>
+
+<!-- CONTRACAPA -->
+<section class="page back">
+  <svg style="width:40mm;height:28mm;color:#D9BC85"><use href="#lotus"/></svg>
+  <h2>Obrigada por estar aqui</h2>
+  <p>Que cada toque seu leve presença, respeito e cuidado. A técnica você aprende com a prática. A presença você cultiva todos os dias.</p>
+  <div class="contact">INSTITUTO YUMI KATAOKA<br>@yumikataoka · institutoyumikataoka.com.br<br>WhatsApp (11) 98560-4140</div>
+  <p style="font-size:7pt;margin-top:16mm;color:#9FB0A8">Material de apoio didático. Não substitui avaliação médica. Proibida a reprodução sem autorização.</p>
+</section>
+
+</body>
+</html>
