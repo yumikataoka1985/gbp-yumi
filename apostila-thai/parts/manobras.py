@@ -338,7 +338,7 @@ SECOES = [
     "Mãos unidas, como em prece: percuta com os dedos soltos, na mesma ordem.",
     "Termine com a intenção e o agradecimento."]),
  ]),
- ("livro", "Complemento do livro", "Variações da sequência sentada descritas no capítulo \"Manual de Thai Massagem Passo a Passo\" do livro de referência, que complementam a aula.", [
+ ("livro", "Complemento do livro", "Variações da sequência sentada descritas no capítulo \"Manual de Thai Massagem Passo a Passo\" do livro de referência, que complementam a aula. Ilustrações de André Utimura, reproduzidas do livro Nuad Thai: Thai Massagem.", [
   ("Torção com apoio do antebraço", "Livro, fig. 128",
    "Sentado, uma mão sobre o ombro oposto.", "Atrás do cliente, uma perna apoiando as costas dele.",
    "Coluna torácica e lombar, cinturas escapular e pélvica.", "Mãos sustentando o antebraço do cliente.",
