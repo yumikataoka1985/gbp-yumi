@@ -4,15 +4,59 @@ estilo: lousa-viva (modo depoimento) · skill reel-depoimento
 persona: massoterapeuta  # confirmado pela Yumi
 aluna: "Cristina"
 duracao_alvo: "45-75s"
-gancho: "frase de resultado mais forte da Cristina (ver F1)"
-cta: "Quer o mesmo caminho? Diagnóstico gratuito, link na bio / WhatsApp (11) 98560-4140"
+gancho: "Comecei a massagem com dor e tô sem dor."
+cta: "Próxima turma do workshop de Thai Massage: link na bio / WhatsApp (11) 98560-4140"
 cor_destaque: "dourado quente"
 brutos:
   - "C0004.MP4 (176 MB) https://drive.google.com/file/d/1DzXxwXlr8dVclj7plxKN29ecK925-mYy/view"
   - "C0139.MP4 (5,5 GB, única mídia da pasta https://drive.google.com/drive/folders/1WeBEKyaaXOFKOEruj159Mi7dcmrxZiwA) https://drive.google.com/file/d/1CClHzhKnZym5fPWKU-mckEGZj3Sy-SBW/view"
-status: "frases-alvo (brutos sem transcrição no Drive; trocar F1-F10 pelas falas reais quando houver transcrição)"
+status: "falas reais (transcritas com Whisper) · vídeo renderizado: reel-depoimento-cristina.mp4 (51s, 1080x1920) · script: reels/render/depoimento-cristina.py"
 autorizacao_imagem: "sim (confirmada pela Yumi em 2026-11-07)"
 ---
+
+## Contexto descoberto nos brutos
+
+- **C0004 (23s):** a Yumi entrevista a Cristina ANTES do **workshop de Thai Massage**
+  (expectativa).
+- **C0139 (12min34s):** roda de fechamento do workshop. A Cristina dá o depoimento DEPOIS,
+  de 5:00 a 5:57. A Yumi faz o convite para os próximos grupos aos 12:00.
+- O depoimento é sobre o workshop (alívio de dor, alongamento, mente em silêncio), não sobre a
+  mentoria MAPA. Por isso a "virada" virou a experiência na aula e o CTA virou próxima turma.
+
+## Roteiro final (falas reais, só cortes)
+
+| # | Saída | Bruto | Fala | Rosto |
+|---|---|---|---|---|
+| 1 | 0:00 | C0139 5:16.6 | Comecei a massagem com dor e tô sem dor. | embaixo |
+| 2 | 0:02.5 | C0004 0:02 / 0:04 | Cristina. Sou massoterapeuta. | embaixo |
+| 3 | 0:04.3 | C0004 0:05 a 0:19 | (Yumi) E qual a sua expectativa para o workshop de hoje? Ah, eu estou com grandes expectativas. (Yumi) O que você espera aprender hoje? Aprender várias coisas, principalmente sobre mobilidade, alívio de dor. | em cima |
+| 4 | 0:14.3 | C0139 5:02 a 5:07 | Tô aqui em êxtase ainda. Porque eu tava com um encurtamento do meu lado direito. | embaixo |
+| 5 | 0:19.8 | C0139 5:08 a 5:16 | Então, fazia dias que eu tava tentando várias alternativas pra melhorar esse alongamento. E hoje eu senti que tô sem dor. | em cima |
+| 6 | 0:27.8 | C0139 5:20 a 5:28 | A minha expectativa foi totalmente, assim, super acima. Porque eu vim buscar justamente isso. Um alívio da dor. | embaixo |
+| 7 | 0:35.6 | C0139 5:38 a 5:44 | Essa parte de silenciar a mente, tanto recebendo quanto fazendo a massagem. | em cima |
+| 8 | 0:41.0 | C0139 5:49 a 5:56 | Eu pretendo aprofundar mais e levar essa experiência, esse conhecimento pra minhas clientes. | embaixo |
+| 9 | 0:47.8 | C0139 11:59 a 12:02 | (Yumi) E aí fica o convite, né, pros próximos grupos também. | em cima |
+| 10 | 0:50.3 | C0139 5:16.6 | Comecei a massagem (loop) | embaixo |
+
+Lousa: DEPOIS + ✗ COM DOR / ✓ SEM DOR · polaroide "Cristina" + MASSOTERAPEUTA · ANTES +
+GRANDES EXPECTATIVAS · checklist Quero aprender (várias coisas, mobilidade, alívio de dor) ·
+DEPOIS + EM ÊXTASE + boneco com lado direito em vermelho "encurtamento" · calendário DIAS
+TENTANDO com ✗ e HOJE + ✓ SEM DOR · barra MINHA EXPECTATIVA passando "o que eu esperava" +
+SUPER ACIMA · Vim buscar: Alívio da dor ✓ · MENTE EM SILÊNCIO ✓ recebendo ✓ fazendo ·
+APROFUNDAR ✓ experiência ✓ conhecimento → minhas clientes · card @yumikataoka + PRÓXIMA
+TURMA + link na bio.
+
+Pendências para o CapCut: trilha lo-fi a -26 dB (o render saiu sem trilha) e, se quiser,
+trocar os efeitos sintetizados por efeitos da biblioteca.
+
+## Legenda do post (final)
+
+A Cristina é massoterapeuta e chegou no workshop de Thai Massage com dor e com grandes
+expectativas. Saiu sem dor, com a mente em silêncio e querendo levar isso pras clientes dela.
+Próxima turma: link na bio ou WhatsApp (11) 98560-4140.
+#thaimassage #massoterapia #massoterapeuta #workshopdemassagem
+
+Capa: frame da Cristina sorrindo + "COMECEI COM DOR, SAÍ SEM DOR".
 
 ## O que muda no modo depoimento
 
