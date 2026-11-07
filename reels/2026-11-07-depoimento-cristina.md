@@ -1,6 +1,6 @@
 ---
 data: 2026-11-07
-estilo: lousa-viva (modo depoimento)
+estilo: lousa-viva (modo depoimento) · skill reel-depoimento
 persona: massoterapeuta  # confirmado pela Yumi
 duracao_alvo: "45-75s"
 gancho: "frase de resultado mais forte da Cristina (ver F1)"
