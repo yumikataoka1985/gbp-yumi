@@ -1,15 +1,16 @@
 ---
 data: 2026-11-07
 estilo: lousa-viva (modo depoimento)
-persona: "A DEFINIR (massoterapeuta | fisioterapeuta | dona-de-spa, conforme a Cristina)"
+persona: massoterapeuta  # padrão; trocar se a Cristina for fisio ou dona de spa
 duracao_alvo: "45-75s"
-gancho: "A DEFINIR com a frase mais forte da Cristina (antes x depois)"
+gancho: "frase de resultado mais forte da Cristina (ver F1)"
 cta: "Quer o mesmo caminho? Diagnóstico gratuito, link na bio / WhatsApp (11) 98560-4140"
 cor_destaque: "dourado quente"
 brutos:
   - "C0004.MP4 (176 MB) https://drive.google.com/file/d/1DzXxwXlr8dVclj7plxKN29ecK925-mYy/view"
   - "C0139.MP4 (5,5 GB) https://drive.google.com/file/d/1CClHzhKnZym5fPWKU-mckEGZj3Sy-SBW/view"
-status: "ESQUELETO: aguardando transcrição dos brutos para preencher falas e tempos"
+status: "PLANO COMPLETO POR FRASES-ALVO: falas reais não transcritas; achar cada F no bruto"
+autorizacao_imagem: "sim (confirmada pela Yumi em 2026-11-07)"
 ---
 
 ## O que muda no modo depoimento
@@ -38,28 +39,60 @@ lousa com estímulo novo a cada 1-2s, zero silêncio). As diferenças:
 7. **Se os brutos tiverem 2 ângulos** (ex.: C0004 frontal e C0139 lateral ou outra câmera),
    alternar os ângulos nos cortes no lugar do punch-in.
 
-## Roteiro (fala)
-<preencher com as frases selecionadas da transcrição, na ordem dos 4 atos>
+## Roteiro (fala) por frases-alvo
 
-## Decupagem (modelo, preencher com as falas reais)
+Os brutos não foram transcritos, então o roteiro é uma lista de **frases-alvo**: o tipo de
+fala que precisa ser achado no C0004/C0139 e colocado nesta ordem. Na hora de editar, ligar
+as *Legendas automáticas* do CapCut, procurar a fala dela que mais se parece com cada F e
+marcar. Se uma F não existir no bruto, pular o bloco (não inventar fala).
+
+| # | Ato | Frase-alvo (o que procurar) | Exemplo do tipo de fala |
+|---|---|---|---|
+| F1 | Gancho | Resultado concreto ou virada em até 12 palavras | "Hoje eu cobro o dobro e a agenda continua cheia." |
+| F2 | Antes | Como era a rotina / a dor principal | "Eu atendia o dia inteiro e não sobrava nada." |
+| F3 | Antes | Sentimento de estar travada ou perdida | "Eu não sabia mais o que fazer." |
+| F4 | Virada | Como chegou na Yumi / decisão de entrar | "Quando eu conheci a Yumi..." |
+| F5 | Virada | 1º ajuste concreto (preço, Google, posicionamento) | "A gente arrumou meu preço." |
+| F6 | Virada | 2º ajuste concreto | "Meu perfil no Google começou a aparecer." |
+| F7 | Virada | Medo que ela tinha e não aconteceu | "Eu achei que ia perder cliente e não perdi." |
+| F8 | Depois | Número ou fato do resultado | "Fechei o mês com [X]." |
+| F9 | Depois | Sentimento hoje | "Hoje eu trabalho mais leve." |
+| F10 | Fecho | Recado para outra profissional | "Se você tá onde eu tava, vai." |
+
+## Decupagem (60s)
 
 | Tempo | Rosto | Lousa | Legenda (destaque em **negrito**) | Som | Zoom |
 |---|---|---|---|---|---|
-| 0:00-0:02 | embaixo | carimbo "DEPOIS" + contador do resultado dela | [frase de resultado] **[palavra-chave]** | whoosh + tick | 100% |
-| 0:02-0:03 | embaixo | etiqueta polaroide "Cristina · [profissão]" | [continuação] | pop | 112% |
-| 0:03-0:06 | embaixo | carimbo vermelho "ANTES" + ícone da dor (bateria, agenda vazia, busca vazia) | [dor 1] | whoosh | 100% |
-| 0:06-0:09 | embaixo | print/ícone da dor 2 com ✗ | [dor 2] | pop | 112% |
-| 0:09-0:12 | **em cima** (inversão) | trilha pontilhada com pin "Método MAPA" | [entrada na mentoria] | whoosh | 100% |
-| 0:12-0:20 | em cima | checklist ✓ dos ajustes que ela citar (1 por 2s) | [ajustes] | pop por ✓ | alterna |
-| 0:20-0:22 | **embaixo** (inversão) | cards ✗ antes / ✓ depois lado a lado | [comparação] | whoosh + click | 100% |
-| 0:22-0:30 | embaixo | contador do número que ela falar (R$, clientes, horas) | [resultado] | tick | 112% |
-| 0:30-0:35 | **em cima** | print real (WhatsApp, agenda, avaliação Google) | [sentimento "hoje eu..."] | digitação/pop | 100% |
-| 0:35-0:40 | em cima ou Yumi | card de perfil + botão "DIAGNÓSTICO" + "link na bio" | **[CTA]** | pop + click | 100% |
+| 0:00-0:01 | embaixo | carimbo dourado "DEPOIS" bate na tela + contador do número de F1 (se houver) | F1, 1º bloco | whoosh + tick | 100% |
+| 0:01-0:03 | embaixo | etiqueta polaroide "Cristina · Massoterapeuta · [cidade]" desliza | F1, final com **palavra do resultado** | pop | 112% |
+| 0:03-0:05 | embaixo | lousa escurece, carimbo vermelho "ANTES" | F2 início | whoosh grave | 100% |
+| 0:05-0:07 | embaixo | ícone de agenda lotada + relógio girando rápido | F2 meio, **o dia inteiro**/equivalente | pop + tic-tac | 112% |
+| 0:07-0:09 | embaixo | ícone de carteira vazia / barra de faturamento parada numa linha "teto" | F2 final | pop | 100% |
+| 0:09-0:12 | **em cima** | trilha pontilhada embaralhada com "?" piscando (perdida) | F3, **perdida**/**travada** | whoosh | 100% |
+| 0:12-0:14 | em cima | a trilha se desembaraça e vira o mapa com pin "Método MAPA" | F4 início | whoosh + ding | 112% |
+| 0:14-0:16 | em cima | foto da Yumi pequena com etiqueta "Yumi Kataoka · mentora" | F4 final | pop | 100% |
+| 0:16-0:18 | em cima | checklist aparece vazio, título "O que mudou" | ponte entre F4 e F5 | click | 100% |
+| 0:18-0:21 | **embaixo** | ✓ 1: ajuste de F5 (ex. "Preço novo") com etiqueta de preço trocando | F5, **preço**/ajuste | pop + ✓ ding | 112% |
+| 0:21-0:24 | embaixo | ✓ 2: ajuste de F6 (ex. card de busca do Google se enchendo) | F6, **Google**/ajuste | digitação + ding | 100% |
+| 0:24-0:27 | embaixo | ✓ 3 opcional ou print real autorizado (agenda/WhatsApp) | F6 final | pop | 112% |
+| 0:27-0:30 | **em cima** | dois cards: ✗ "medo de perder cliente" × ✓ "agenda mantida" | F7, **não perdi**/equivalente | whoosh + click | 100% |
+| 0:30-0:33 | em cima | card ✗ fica cinza e sai, ✓ cresce | F7 final | pop | 112% |
+| 0:33-0:36 | em cima | carimbo dourado "DEPOIS" de novo | F8 início | whoosh | 100% |
+| 0:36-0:40 | **embaixo** | contador do número de F8 subindo (R$, clientes, horas) + pílula "resultado individual da Cristina" | F8, **número** | tick contínuo + ding | 100%→112% |
+| 0:40-0:43 | embaixo | barra de faturamento passa a linha "teto" | F8 final | whoosh | 112% |
+| 0:43-0:47 | embaixo | ícone de bateria carregando / sol nascendo (leveza) | F9, **leve**/sentimento | pop suave | 100% |
+| 0:47-0:50 | **em cima** | print autorizado (avaliação Google ou mensagem dela) | F9 final | pop | 112% |
+| 0:50-0:54 | em cima | lousa limpa, frase F10 em pílula grande dourada | F10, **vai**/recado | whoosh | 100% |
+| 0:54-0:58 | em cima (Cristina) ou Yumi 2-4s | card de perfil @yumikataoka + botão "DIAGNÓSTICO GRATUITO" + "link na bio" + seta | "Quer o mesmo caminho? **Link na bio**" (texto na tela; voz da Yumi se gravar) | pop + click | 100% |
+| 0:58-1:00 | corte seco para frame de F1 | carimbo "DEPOIS" de volta (loop) | F1 repetida 1 palavra | whoosh | 112% |
+
+Se o depoimento render menos de 60s útil, cortar o ✓ 3 (0:24-0:27) e o bloco 0:40-0:43.
+Se F8 não tiver número, trocar o contador por cards ✓ com os fatos dela.
 
 ## Lista de assets para preparar
 - Transcrição dos dois brutos (CapCut > Legendas > Legendas automáticas, depois copiar o
   texto) ou o texto colado aqui.
-- Profissão, cidade e tempo de mentoria da Cristina; autorização dela para uso de imagem.
+- Profissão, cidade e tempo de mentoria da Cristina (autorização de imagem: ok).
 - Números reais que ela citar (antes e depois) para os contadores.
 - Prints autorizados: agenda, conversa, avaliação no Google, tabela de preço.
 - Etiqueta polaroide com o nome, carimbos ANTES/DEPOIS, card CTA.
