@@ -2,14 +2,15 @@
 data: 2026-11-07
 estilo: lousa-viva (modo depoimento) · skill reel-depoimento
 persona: massoterapeuta  # confirmado pela Yumi
+aluna: "Cristina"
 duracao_alvo: "45-75s"
 gancho: "frase de resultado mais forte da Cristina (ver F1)"
 cta: "Quer o mesmo caminho? Diagnóstico gratuito, link na bio / WhatsApp (11) 98560-4140"
 cor_destaque: "dourado quente"
 brutos:
   - "C0004.MP4 (176 MB) https://drive.google.com/file/d/1DzXxwXlr8dVclj7plxKN29ecK925-mYy/view"
-  - "C0139.MP4 (5,5 GB) https://drive.google.com/file/d/1CClHzhKnZym5fPWKU-mckEGZj3Sy-SBW/view"
-status: "PLANO COMPLETO POR FRASES-ALVO: falas reais não transcritas; achar cada F no bruto"
+  - "C0139.MP4 (5,5 GB, única mídia da pasta https://drive.google.com/drive/folders/1WeBEKyaaXOFKOEruj159Mi7dcmrxZiwA) https://drive.google.com/file/d/1CClHzhKnZym5fPWKU-mckEGZj3Sy-SBW/view"
+status: "frases-alvo (brutos sem transcrição no Drive; trocar F1-F10 pelas falas reais quando houver transcrição)"
 autorizacao_imagem: "sim (confirmada pela Yumi em 2026-11-07)"
 ---
 
@@ -64,7 +65,7 @@ marcar. Se uma F não existir no bruto, pular o bloco (não inventar fala).
 | Tempo | Rosto | Lousa | Legenda (destaque em **negrito**) | Som | Zoom |
 |---|---|---|---|---|---|
 | 0:00-0:01 | embaixo | carimbo dourado "DEPOIS" bate na tela + contador do número de F1 (se houver) | F1, 1º bloco | whoosh + tick | 100% |
-| 0:01-0:03 | embaixo | etiqueta polaroide "Cristina · Massoterapeuta · [cidade]" desliza | F1, final com **palavra do resultado** | pop | 112% |
+| 0:01-0:03 | embaixo | etiqueta polaroide "Cristina · Massoterapeuta · [cidade, se ela quiser]" desliza | F1, final com **palavra do resultado** | pop | 112% |
 | 0:03-0:05 | embaixo | lousa escurece, carimbo vermelho "ANTES" | F2 início | whoosh grave | 100% |
 | 0:05-0:07 | embaixo | ícone de agenda lotada + relógio girando rápido | F2 meio, **o dia inteiro**/equivalente | pop + tic-tac | 112% |
 | 0:07-0:09 | embaixo | ícone de carteira vazia / barra de faturamento parada numa linha "teto" | F2 final | pop | 100% |
