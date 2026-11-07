@@ -1,7 +1,7 @@
 ---
 data: 2026-11-07
 estilo: lousa-viva (modo depoimento)
-persona: massoterapeuta  # padrão; trocar se a Cristina for fisio ou dona de spa
+persona: massoterapeuta  # confirmado pela Yumi
 duracao_alvo: "45-75s"
 gancho: "frase de resultado mais forte da Cristina (ver F1)"
 cta: "Quer o mesmo caminho? Diagnóstico gratuito, link na bio / WhatsApp (11) 98560-4140"
