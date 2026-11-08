@@ -160,7 +160,7 @@ def profile_card(avatar):
     rr(d, (0, 0, w - 1, h - 1), 44, (12, 30, 30, 235), (255, 255, 255, 80), 3)
     av = avatar.resize((190, 190)); m = Image.new("L", (190, 190), 0); ImageDraw.Draw(m).ellipse((0, 0, 189, 189), fill=255)
     im.paste(av, (40, 40), m); d.ellipse((36, 36, 234, 234), outline=GOLD, width=6)
-    d.text((270, 95), "@yumikataoka", font=F("k", 52), fill=WHITE, anchor="lm")
+    d.text((270, 95), "@yumi_kataoka", font=F("k", 52), fill=WHITE, anchor="lm")
     d.text((270, 160), "Thai Massage · Formação", font=F("m", 36), fill=(255, 255, 255, 200), anchor="lm")
     d.text((270, 210), "para terapeutas", font=F("m", 36), fill=(255, 255, 255, 200), anchor="lm")
     return im

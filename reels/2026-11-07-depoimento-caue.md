@@ -24,7 +24,7 @@ status: "falas reais · vídeo renderizado: reel-depoimento-caue.mp4 · script: 
 | 0:10.6 | C0139 4:34 a 4:44 | Foi muito bom. Muito bom mesmo. Acho que a Thai Massage traz outras nuances, né? De liberação mesmo. | embaixo | DEPOIS + MUITO BOM MESMO, outras nuances, ✓ LIBERAÇÃO |
 | 0:16.6 | C0139 4:44 a 4:51 | Senti pontos. Até o meu ciático que tava meio inflamado. Nessa aí tá mais leve, assim. | em cima | boneco com pontos dourados, ciático em vermelho que vira dourado + ✓ MAIS LEVE |
 | 0:22.6 | C0139 4:54 | Quero continuar. Quero aprofundar. | embaixo | ✓ continuar ✓ APROFUNDAR |
-| 0:24.1 | C0139 11:59 | (Yumi) E aí fica o convite, né, pros próximos grupos também. | em cima | card @yumikataoka + PRÓXIMA TURMA |
+| 0:24.1 | C0139 11:59 | (Yumi) E aí fica o convite, né, pros próximos grupos também. | em cima | card @yumi_kataoka + PRÓXIMA TURMA |
 | 0:26.6 | C0139 4:52 | Eu saí bem apaixonado (loop) | embaixo | DEPOIS |
 
 Pendências: trilha lo-fi a -26 dB no CapCut; conferir no áudio se "Nessa aí" é mesmo a fala (transcrição automática).

@@ -43,7 +43,7 @@ GRANDES EXPECTATIVAS · checklist Quero aprender (várias coisas, mobilidade, al
 DEPOIS + EM ÊXTASE + boneco com lado direito em vermelho "encurtamento" · calendário DIAS
 TENTANDO com ✗ e HOJE + ✓ SEM DOR · barra MINHA EXPECTATIVA passando "o que eu esperava" +
 SUPER ACIMA · Vim buscar: Alívio da dor ✓ · MENTE EM SILÊNCIO ✓ recebendo ✓ fazendo ·
-APROFUNDAR ✓ experiência ✓ conhecimento → minhas clientes · card @yumikataoka + PRÓXIMA
+APROFUNDAR ✓ experiência ✓ conhecimento → minhas clientes · card @yumi_kataoka + PRÓXIMA
 TURMA + link na bio.
 
 Pendências para o CapCut: trilha lo-fi a -26 dB (o render saiu sem trilha) e, se quiser,
@@ -128,7 +128,7 @@ marcar. Se uma F não existir no bruto, pular o bloco (não inventar fala).
 | 0:43-0:47 | embaixo | ícone de bateria carregando / sol nascendo (leveza) | F9, **leve**/sentimento | pop suave | 100% |
 | 0:47-0:50 | **em cima** | print autorizado (avaliação Google ou mensagem dela) | F9 final | pop | 112% |
 | 0:50-0:54 | em cima | lousa limpa, frase F10 em pílula grande dourada | F10, **vai**/recado | whoosh | 100% |
-| 0:54-0:58 | em cima (Cristina) ou Yumi 2-4s | card de perfil @yumikataoka + botão "DIAGNÓSTICO GRATUITO" + "link na bio" + seta | "Quer o mesmo caminho? **Link na bio**" (texto na tela; voz da Yumi se gravar) | pop + click | 100% |
+| 0:54-0:58 | em cima (Cristina) ou Yumi 2-4s | card de perfil @yumi_kataoka + botão "DIAGNÓSTICO GRATUITO" + "link na bio" + seta | "Quer o mesmo caminho? **Link na bio**" (texto na tela; voz da Yumi se gravar) | pop + click | 100% |
 | 0:58-1:00 | corte seco para frame de F1 | carimbo "DEPOIS" de volta (loop) | F1 repetida 1 palavra | whoosh | 112% |
 
 Se o depoimento render menos de 60s útil, cortar o ✓ 3 (0:24-0:27) e o bloco 0:40-0:43.

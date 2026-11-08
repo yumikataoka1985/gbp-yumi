@@ -24,7 +24,7 @@ status: "falas reais · vídeo renderizado: reel-depoimento-larissa.mp4 · scrip
 | 0:15.8 | C0139 2:30 a 2:39 | Eu senti que traz muita presença no corpo. E com isso o mental vai reduzindo devagar ao ponto que você não nota. | embaixo | DEPOIS + boneco que acende em dourado + PRESENÇA no corpo; ondas da mente se acalmando |
 | 0:24.8 | C0139 2:39 a 2:45 | E quando você vai ver, você só tá presente em silêncio. Em silêncio mental (e) relaxamento corporal. | em cima | PRESENTE EM SILÊNCIO + ✓ silêncio mental + ✓ relaxamento corporal |
 | 0:30.0 | C0139 2:47 | Uma sensação de harmonização também. | embaixo | ★ HARMONIZAÇÃO |
-| 0:32.3 | C0139 11:59 | (Yumi) E aí fica o convite, né, pros próximos grupos também. | em cima | card @yumikataoka + PRÓXIMA TURMA |
+| 0:32.3 | C0139 11:59 | (Yumi) E aí fica o convite, né, pros próximos grupos também. | em cima | card @yumi_kataoka + PRÓXIMA TURMA |
 | 0:34.7 | C0139 2:45.7 | É uma meditação (loop) | embaixo | DEPOIS |
 
 Ficou de fora de propósito: a frase da Yumi no fim da entrevista ("vai te dar muitas ferramentas

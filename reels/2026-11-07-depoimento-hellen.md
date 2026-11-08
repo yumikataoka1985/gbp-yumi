@@ -25,7 +25,7 @@ status: "falas reais · vídeo renderizado: reel-depoimento-hellen.mp4 · script
 | 0:16.2 | C0139 3:36 a 3:42 | Eu achei muito legal. Eu imaginava outra coisa. Não imaginava isso. | em cima | DEPOIS + MUITO LEGAL + ✗ imaginava outra coisa ★ não imaginava isso |
 | 0:20.7 | C0139 4:03 a 4:07 | O meu mental, assim, ficou bem silencioso. Que é muito difícil de acontecer. | embaixo | ondas da mente se acalmando + MENTAL SILENCIOSO |
 | 0:24.0 | C0139 4:09 a 4:17 | Gostei muito de fazer também. Porque eu senti que eu tava também alongando o meu corpo. Não é uma coisa sofrida. | em cima | ✓ gostei de fazer + boneco dourado ALONGANDO o meu corpo + ✗ sofrido |
-| 0:30.7 | C0139 11:59 | (Yumi) E aí fica o convite, né, pros próximos grupos também. | embaixo | card @yumikataoka + PRÓXIMA TURMA |
+| 0:30.7 | C0139 11:59 | (Yumi) E aí fica o convite, né, pros próximos grupos também. | embaixo | card @yumi_kataoka + PRÓXIMA TURMA |
 | 0:33.1 | C0139 3:53 | Mas foi bem acima (loop) | embaixo | DEPOIS |
 
 Observação: a transcrição escreveu "Ellen"; na legenda do vídeo ficou HELLEN. Confirmar a grafia.
