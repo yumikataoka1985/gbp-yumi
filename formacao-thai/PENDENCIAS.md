@@ -61,8 +61,7 @@ ser preenchida antes da publicação.
 - [ ] O trecho do Cauê junta duas falas da roda (4:44 e 4:54). O sentido foi preservado; confirmar.
 - [ ] Confirmar a apresentação "fisioterapeuta, especialista em Thai Massagem e formadora, com mais
       de 17 anos de experiência" (o DNA dos posts usa "massoterapeuta, formadora e mentora").
-- [ ] Instagram no rodapé: `@yumikataoka` (do DNA). O vídeo editado do workshop usa
-      `@instituto_yumikataoka`. Confirmar qual vai na página.
+- [x] Instagram no rodapé: `@instituto_yumikataoka` e `@yumi_kataoka` (confirmado pela Yumi).
 - [ ] Endereço completo: a página cita só "Perdizes, São Paulo". O site do Instituto informa
       Rua Apiacás, 756. Decidir se entra.
 
