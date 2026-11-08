@@ -171,7 +171,7 @@ def grab(src, ts, box):
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(ts), "-i", f"{B}/{src}.MP4", "-frames:v", "1", p], check=True)
     return Image.open(p).convert("RGB").crop(box)
 cris_photo = grab("C0004", 2.4, (2150, 280, 3350, 1480))
-yumi_photo = grab("C0139", 721.0, (1760, 140, 2420, 800))
+yumi_photo = Image.open('/tmp/claude-0/-home-user-gbp-yumi/db5fc9d1-fbee-574a-b915-3b517045ddce/scratchpad/fotos/avatar.png').convert('RGB')
 
 # ---------------------------------------------------------------- cenas
 # (cena, seg_idx, src_t, elemento_img, cx, cy, anim, som)
