@@ -44,7 +44,7 @@ As referências usam Dark UI (preto + verde neon / amarelo). Para a Yumi, manter
 trocar a pele:
 
 - **Fundo da lousa:** gradiente escuro (verde-petróleo profundo ou berinjela/vinho, conforme a
-  paleta do Instagram @yumikataoka) com textura sutil de pontinhos animada bem devagar.
+  paleta do Instagram @yumi_kataoka) com textura sutil de pontinhos animada bem devagar.
 - **1 cor de destaque só** (ex.: dourado quente ou verde-sálvia vivo) para sublinhados,
   selos ✓, botões e palavra-chave da legenda. Vermelho só para "erro"/✗/carimbo de alerta.
 - **Cards:** retângulos escuros translúcidos, cantos bem arredondados, borda fina clara, ícone

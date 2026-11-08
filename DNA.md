@@ -10,7 +10,7 @@ Instituto Yumi Kataoka — mentoria para massoterapeutas (Método MAPA). Vanessa
 massoterapeuta, formadora e mentora com mais de 17 anos de atuação, especialista em Thai
 Massage Clínica, Consciência Corporal e Google Meu Negócio para Terapeutas.
 
-- Instagram: @yumikataoka
+- Instagram: @yumi_kataoka (pessoal da Yumi) e @instituto_yumikataoka (Instituto)
 - Site: institutoyumikataoka.com.br
 - Produto principal: Método MAPA — mentoria de 12 encontros ao vivo (3 meses) para
   massoterapeuta sair da invisibilidade e faturar 10K/mês.
